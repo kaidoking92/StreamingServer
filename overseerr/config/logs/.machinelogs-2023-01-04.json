@@ -1501,3 +1501,16 @@
 {"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-01-04T21:32:00.244Z"}
 {"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-01-04T21:33:00.049Z"}
 {"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-01-04T21:34:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-01-04T21:35:00.053Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2023-01-04T21:35:00.095Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"9f572f22-511c-4b37-baf9-5fa1ec76b652","timestamp":"2023-01-04T21:35:00.103Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND plex","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2023-01-04T21:35:00.431Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-01-04T21:36:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-01-04T21:37:00.050Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-01-04T21:38:00.015Z"}
+{"level":"info","message":"Commit Tag: v1.31.0","timestamp":"2023-01-04T21:39:58.222Z"}
+{"level":"info","message":"Starting Overseerr version 1.31.0","timestamp":"2023-01-04T21:40:01.780Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2023-01-04T21:40:08.860Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2023-01-04T21:40:09.025Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2023-01-04T21:40:10.056Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-01-04T21:41:00.550Z"}

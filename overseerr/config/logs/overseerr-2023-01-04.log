@@ -1501,3 +1501,16 @@
 2023-01-04T21:32:00.244Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2023-01-04T21:33:00.049Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2023-01-04T21:34:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:35:00.053Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:35:00.095Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T21:35:00.103Z [info][Plex Scan]: Scan starting {"sessionId":"9f572f22-511c-4b37-baf9-5fa1ec76b652"}
+2023-01-04T21:35:00.431Z [error][Plex Scan]: Scan interrupted {"errorMessage":"getaddrinfo ENOTFOUND plex"}
+2023-01-04T21:36:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:37:00.050Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:38:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:39:58.222Z [info]: Commit Tag: v1.31.0 
+2023-01-04T21:40:01.780Z [info]: Starting Overseerr version 1.31.0 
+2023-01-04T21:40:08.860Z [info][Notifications]: Registered notification agents 
+2023-01-04T21:40:09.025Z [info][Jobs]: Scheduled jobs loaded 
+2023-01-04T21:40:10.056Z [info][Server]: Server ready on port 5055 
+2023-01-04T21:41:00.550Z [debug][Jobs]: Starting scheduled job: Download Sync 

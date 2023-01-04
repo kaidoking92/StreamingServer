@@ -32,3 +32,7 @@
 04/01/2023 21:20:57|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
 04/01/2023 21:20:57|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
 04/01/2023 21:20:58|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+04/01/2023 21:40:07|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+04/01/2023 21:40:07|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+04/01/2023 21:40:07|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+04/01/2023 21:40:08|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|

@@ -637,3 +637,11 @@ FeedUrl: https://www.elitetorrent.com/?s=&x=0&y=0
 2023-01-04 21:33:49.9|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
 2023-01-04 21:33:51.1|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
 2023-01-04 21:33:52.9|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 21:38:25.9|Info|ConsoleApp|Exiting main.
+2023-01-04 21:39:38.5|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.0.1.2220
+2023-01-04 21:39:39.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:39:39.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:39:44.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:39:46.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:39:48.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:39:53.0|Info|CommandExecutor|Starting 3 threads for tasks.

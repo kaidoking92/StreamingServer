@@ -1326,3 +1326,11 @@
 2023-01-04 21:33:51.5|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:18:22 PM and 1/4/2023 9:33:48 PM UTC. Search may be required.
 2023-01-04 21:33:55.0|Info|DownloadDecisionMaker|Processing 120 releases
 2023-01-04 21:33:55.4|Info|RssSyncService|RSS Sync Completed. Reports found: 120, Reports grabbed: 0
+2023-01-04 21:39:37.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:39:39.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:39:40.3|Info|Router|Application mode: Interactive
+2023-01-04 21:39:41.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:39:42.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:39:44.6|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:39:44.6|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:39:47.8|Info|SonarrBootstrapper|Starting Web Server

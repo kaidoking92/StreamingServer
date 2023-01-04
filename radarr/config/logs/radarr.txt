@@ -377,3 +377,14 @@ FeedUrl: http://prowlarr:9696/2/api?t=movie&cat=2000&extended=1&apikey=(removed)
 2023-01-04 21:20:52.3|Info|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
 2023-01-04 21:20:52.5|Info|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
 2023-01-04 21:20:58.2|Info|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-01-04 21:38:22.9|Info|ConsoleApp|Exiting main.
+2023-01-04 21:39:24.6|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.3.2.6857
+2023-01-04 21:39:26.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:39:27.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:39:31.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:39:37.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:39:39.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:39:47.9|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-04 21:40:01.2|Info|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2023-01-04 21:40:01.5|Info|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2023-01-04 21:40:07.4|Info|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.

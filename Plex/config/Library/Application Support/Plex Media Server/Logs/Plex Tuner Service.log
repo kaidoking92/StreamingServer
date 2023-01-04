@@ -1,17 +1,11 @@
-Jan 04, 2023 21:20:34.892 [0xffff9b200b08] INFO - Plex Tuner Service v1.30.0.6486-629d58034 - Docker Docker Container (LinuxServer.io) aarch64 - build: 
-Jan 04, 2023 21:20:34.903 [0xffff9b200b08] INFO - Linux version: 5.15.49-linuxkit (#1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022), language: en-US
-Jan 04, 2023 21:20:34.913 [0xffff9b200b08] INFO - Processor Unknown architecture
-Jan 04, 2023 21:20:34.923 [0xffff9b200b08] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.30.0.6486-629d58034 32600
-Jan 04, 2023 21:20:34.659 [0xffff9cfd9890] INFO - [I] broker_t::start...
-Jan 04, 2023 21:20:34.916 [0xffff9cfd9890] INFO - [I] device_manager_t::init.
-Jan 04, 2023 21:20:34.916 [0xffff9cfd9890] INFO - [I] device_manager_t::init. Initialize provider manager
-Jan 04, 2023 21:20:34.916 [0xffff9cfd9890] INFO - [I] device_manager_t::init. Initialize all device auxes
-Jan 04, 2023 21:20:34.923 [0xffff9cfd9890] INFO - [I] dvb_device_factory_t::get_aux_list
-Jan 04, 2023 21:20:34.923 [0xffff9cfd9890] INFO - [I] tvbutler_aux_t::init
-Jan 04, 2023 21:20:35.191 [0xffff9cfd9890] INFO - [I] web_server_t::start. Starting web server on port 32600
-Jan 04, 2023 21:20:36.281 [0xffff9afc9b08] INFO - [I] web_service_t::process_device_discovery
-Jan 04, 2023 21:20:36.282 [0xffff9afc9b08] INFO - [I] device_reactor_t::get_device_list ()
-Jan 04, 2023 21:20:38.325 [0xffff9afc9b08] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
-Jan 04, 2023 21:20:38.747 [0xffff9afc9b08] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
-Jan 04, 2023 21:20:38.778 [0xffff9afc9b08] INFO - [I] onetv_factory::DeviceGetListEx >>
-Jan 04, 2023 21:20:38.802 [0xffff9afc9b08] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
+Jan 04, 2023 21:40:29.410 [0x400348fb38] INFO - Plex Tuner Service v1.30.0.6486-629d58034 - Docker Docker Container x86_64 - build: 
+Jan 04, 2023 21:40:29.462 [0x400348fb38] INFO - Linux version: 5.15.49-linuxkit (#1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022), language: en-US
+Jan 04, 2023 21:40:29.469 [0x400348fb38] INFO - Processor QEMU TCG CPU version 2.5+
+Jan 04, 2023 21:40:29.480 [0x400348fb38] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.30.0.6486-629d58034 32600
+Jan 04, 2023 21:40:28.634 [0x4001b2c808] INFO - [I] broker_t::start...
+Jan 04, 2023 21:40:29.164 [0x4001b2c808] INFO - [I] device_manager_t::init.
+Jan 04, 2023 21:40:29.165 [0x4001b2c808] INFO - [I] device_manager_t::init. Initialize provider manager
+Jan 04, 2023 21:40:29.165 [0x4001b2c808] INFO - [I] device_manager_t::init. Initialize all device auxes
+Jan 04, 2023 21:40:29.167 [0x4001b2c808] INFO - [I] dvb_device_factory_t::get_aux_list
+Jan 04, 2023 21:40:29.173 [0x4001b2c808] INFO - [I] tvbutler_aux_t::init
+Jan 04, 2023 21:40:29.341 [0x4001b2c808] INFO - [I] web_server_t::start. Starting web server on port 32600
