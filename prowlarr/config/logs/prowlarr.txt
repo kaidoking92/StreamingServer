@@ -371,3 +371,269 @@ FeedUrl: https://www.elitetorrent.com/?s=&x=0&y=0
 2023-01-04 09:40:26.0|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
 2023-01-04 09:40:32.2|Info|Cardigann|Adding request: https://movietorrent.co/page/2/?s=
 2023-01-04 09:40:44.3|Info|Cardigann|Adding request: https://movietorrent.co/page/3/?s=
+2023-01-04 10:46:53.3|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.0.1.2220
+2023-01-04 10:46:55.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 10:46:56.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 10:46:59.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 10:47:07.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 10:47:09.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 10:47:16.7|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-01-04 12:43:34.1|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.0.1.2220
+2023-01-04 12:43:34.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 12:43:34.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 12:43:36.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 12:43:36.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 12:43:37.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 12:43:38.8|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-01-04 12:44:13.8|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 12:44:13.8|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 12:44:13.8|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 12:44:13.9|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 12:44:13.9|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 12:44:13.9|Info|ReleaseSearchService|Searching indexer(s): [MovieTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2040, 2080]
+2023-01-04 12:44:14.0|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 12:44:14.0|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 12:44:14.0|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 12:44:14.0|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 12:44:14.0|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 12:44:14.0|Info|Cardigann|Adding request: https://movietorrent.co/?s=
+2023-01-04 12:44:14.1|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2070, 2030, 2010, 2040, 2060, 2045]
+2023-01-04 12:44:14.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 12:44:14.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 12:44:14.2|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 12:44:14.2|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 12:44:14.2|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 12:44:14.2|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 12:44:14.3|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 12:44:14.3|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 12:44:14.3|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 12:44:16.3|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 12:44:18.8|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 12:44:19.6|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 12:44:20.6|Info|Cardigann|Adding request: https://movietorrent.co/page/2/?s=
+2023-01-04 12:44:20.9|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 12:44:22.1|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 12:44:22.9|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 12:44:25.7|Info|Cardigann|Adding request: https://movietorrent.co/page/3/?s=
+2023-01-04 12:44:28.5|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 12:44:29.8|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 12:59:54.4|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 12:59:54.7|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 12:59:54.7|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 12:59:54.7|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 12:59:54.7|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 12:59:54.8|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 12:59:54.8|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 12:59:54.8|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 12:59:54.8|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 12:59:54.8|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 13:00:06.7|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 13:00:07.1|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 13:00:08.8|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 13:00:11.2|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 13:15:33.7|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 13:15:33.7|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 13:15:34.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 13:15:34.2|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 13:15:34.2|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 13:15:34.3|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 13:15:34.3|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 13:15:34.4|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 13:15:35.3|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 13:15:37.2|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 13:15:41.5|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 13:15:43.9|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 13:15:47.1|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 13:15:52.5|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 14:41:57.4|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.0.1.2220
+2023-01-04 14:41:57.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 14:42:00.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 14:42:09.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 14:42:19.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 14:42:31.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 14:42:48.4|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-01-04 14:43:47.4|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2070, 2030, 2010, 2040, 2060, 2045]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 14:43:47.5|Info|ReleaseSearchService|Searching indexer(s): [MovieTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2040, 2080]
+2023-01-04 14:43:47.4|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 14:43:52.4|Info|HistoryService|Removing items older than 365 days from history
+2023-01-04 14:43:52.5|Info|HousekeepingService|Running housecleaning tasks
+2023-01-04 14:43:53.8|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 14:43:53.8|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 14:43:53.8|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 14:43:53.8|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 14:43:53.8|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 14:43:53.8|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 14:43:53.9|Info|Cardigann|Adding request: https://movietorrent.co/?s=
+2023-01-04 14:43:55.2|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 14:43:55.2|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 14:43:55.2|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 14:43:55.3|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 14:44:07.3|Info|Database|Vacuuming Log database
+2023-01-04 14:44:18.7|Info|Database|Log database compressed
+2023-01-04 14:44:19.7|Info|Database|Vacuuming Main database
+2023-01-04 14:44:26.9|Info|Database|Main database compressed
+2023-01-04 14:44:42.7|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 14:45:01.3|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 14:45:03.7|Info|HousekeepingService|Running housecleaning tasks
+2023-01-04 14:45:11.8|Warn|Microsoft.AspNetCore.Server.Kestrel|As of "01/04/2023 14:44:35 +00:00", the heartbeat has been running for "00:00:02.0039797" which is longer than "00:00:01". This could be caused by thread pool starvation.
+2023-01-04 14:45:32.0|Warn|Microsoft.AspNetCore.Server.Kestrel|As of "01/04/2023 14:45:29 +00:00", the heartbeat has been running for "00:00:01.4082892" which is longer than "00:00:01". This could be caused by thread pool starvation.
+2023-01-04 14:45:35.8|Info|Database|Vacuuming Log database
+2023-01-04 14:45:44.4|Warn|Microsoft.AspNetCore.Server.Kestrel|As of "01/04/2023 14:45:40 +00:00", the heartbeat has been running for "00:00:03.0459543" which is longer than "00:00:01". This could be caused by thread pool starvation.
+2023-01-04 14:45:51.0|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 14:45:52.2|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 14:45:52.7|Info|Cardigann|Adding request: https://movietorrent.co/page/2/?s=
+2023-01-04 14:45:53.7|Info|Database|Log database compressed
+2023-01-04 14:45:54.0|Info|Database|Vacuuming Main database
+2023-01-04 14:46:01.3|Info|Database|Main database compressed
+2023-01-04 14:46:21.0|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 14:46:21.1|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 14:46:22.7|Info|Cardigann|Adding request: https://movietorrent.co/page/3/?s=
+2023-01-04 14:46:27.9|Error|FlareSolverr|Proxy Health Check failed
+
+[v1.0.1.2220] System.Net.Http.HttpRequestException: Name does not resolve (flaresolverr:8191)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name does not resolve
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 316
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 302
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 108
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 136
+   at NzbDrone.Core.IndexerProxies.FlareSolverr.FlareSolverr.Test() in D:\a\1\s\src\NzbDrone.Core\IndexerProxies\FlareSolverr\FlareSolverr.cs:line 190
+
+
+2023-01-04 14:46:32.6|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 14:46:39.3|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 15:01:08.1|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 15:01:08.1|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 15:01:08.2|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 15:01:08.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 15:01:08.2|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 15:01:08.2|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 15:01:08.2|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 15:01:08.2|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 15:01:08.3|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 15:01:08.3|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 15:01:09.6|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 15:01:11.3|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 15:01:11.7|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 15:01:14.0|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 20:46:42.8|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.0.1.2220
+2023-01-04 20:46:43.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:46:43.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:46:44.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:46:45.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:46:46.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:46:47.9|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-01-04 20:47:17.2|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 20:47:17.2|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 20:47:17.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 20:47:17.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 20:47:17.3|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 20:47:17.4|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 20:47:17.4|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 20:47:17.4|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 20:47:17.4|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 20:47:17.4|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 20:47:17.8|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 20:47:17.9|Info|ReleaseSearchService|Searching indexer(s): [MovieTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2040, 2080]
+2023-01-04 20:47:17.9|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2070, 2030, 2010, 2040, 2060, 2045]
+2023-01-04 20:47:17.9|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 20:47:17.9|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 20:47:18.0|Info|Cardigann|Adding request: https://movietorrent.co/?s=
+2023-01-04 20:47:18.0|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 20:47:18.0|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 20:47:18.1|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-01-04 20:47:18.1|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 20:47:18.2|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 20:47:18.3|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 20:47:20.9|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 20:47:26.9|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 20:47:27.6|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 20:47:28.3|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 20:47:28.7|Info|Cardigann|Adding request: https://movietorrent.co/page/2/?s=
+2023-01-04 20:47:29.7|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 20:47:30.1|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 20:47:31.8|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 20:47:33.6|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 20:47:33.8|Info|Cardigann|Adding request: https://movietorrent.co/page/3/?s=
+2023-01-04 21:02:51.1|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 21:02:51.1|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:02:51.1|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:02:51.1|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:02:51.1|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 21:02:51.1|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 21:02:51.1|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 21:02:51.1|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 21:02:51.1|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 21:02:51.2|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 21:02:52.5|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 21:02:53.7|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 21:02:53.7|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 21:02:55.5|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 21:10:36.2|Info|ConsoleApp|Exiting main.
+2023-01-04 21:11:41.0|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.0.1.2220
+2023-01-04 21:11:41.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:11:41.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:11:43.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:11:44.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:11:46.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:11:49.6|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-01-04 21:18:18.0|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:18:18.0|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 21:18:18.0|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:18:18.0|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 21:18:18.0|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:18:18.1|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 21:18:18.1|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 21:18:18.1|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 21:18:18.1|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 21:18:18.1|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 21:18:19.5|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 21:18:21.0|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 21:18:21.3|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 21:18:23.2|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/
+2023-01-04 21:19:53.5|Info|ConsoleApp|Exiting main.
+2023-01-04 21:20:32.0|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.0.1.2220
+2023-01-04 21:20:32.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:20:32.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:20:34.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:20:35.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:20:36.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:20:39.7|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-01-04 21:33:46.1|Info|ReleaseSearchService|Searching indexer(s): [Torrent911] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:33:46.1|Info|ReleaseSearchService|Searching indexer(s): [EliteTorrent.biz] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-01-04 21:33:46.1|Info|ReleaseSearchService|Searching indexer(s): [Torrent9 clone] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:33:46.1|Info|ReleaseSearchService|Searching indexer(s): [GkTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-01-04 21:33:46.1|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-01-04 21:33:46.3|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Movies/time/desc/1/
+2023-01-04 21:33:46.3|Info|Cardigann|Adding request: https://www.torrent911.tv/derniers
+2023-01-04 21:33:46.3|Info|Cardigann|Adding request: https://ww2.torrent9.re/
+2023-01-04 21:33:46.3|Info|Cardigann|Adding request: https://www.gktorrents.cc/
+2023-01-04 21:33:46.3|Info|Cardigann|Adding request: https://www.elitetorrent.com/?s=&x=0&y=0
+2023-01-04 21:33:48.8|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/2/?s=&x=0&y=0
+2023-01-04 21:33:49.9|Info|Cardigann|Adding request: https://www.elitetorrent.com/page/3/?s=&x=0&y=0
+2023-01-04 21:33:51.1|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/TV/time/desc/1/
+2023-01-04 21:33:52.9|Info|Cardigann|Adding request: https://1337x.unblockit.pet/cat/Music/time/desc/1/

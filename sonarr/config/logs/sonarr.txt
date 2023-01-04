@@ -1196,3 +1196,133 @@
 2023-01-04 09:35:32.1|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:20:10 AM and 1/4/2023 9:35:29 AM UTC. Search may be required.
 2023-01-04 09:35:32.6|Info|DownloadDecisionMaker|Processing 113 releases
 2023-01-04 09:35:32.7|Info|RssSyncService|RSS Sync Completed. Reports found: 113, Reports grabbed: 0
+2023-01-04 10:46:43.3|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 10:46:48.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 10:46:50.4|Info|Router|Application mode: Interactive
+2023-01-04 10:46:52.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 10:46:56.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 10:47:02.4|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 10:47:02.4|Info|OwinHostController|  http://*:8989/
+2023-01-04 10:47:09.8|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 12:43:26.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 12:43:28.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 12:43:30.1|Info|Router|Application mode: Interactive
+2023-01-04 12:43:30.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 12:43:31.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 12:43:32.1|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 12:43:32.1|Info|OwinHostController|  http://*:8989/
+2023-01-04 12:43:33.3|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 12:44:07.0|Info|SceneMappingService|Updating Scene mappings
+2023-01-04 12:44:10.4|Info|RssSyncService|Starting RSS Sync
+2023-01-04 12:44:18.2|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:35:29 AM and 1/4/2023 12:44:15 PM UTC. Search may be required.
+2023-01-04 12:44:18.2|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:35:29 AM and 1/4/2023 12:44:15 PM UTC. Search may be required.
+2023-01-04 12:44:18.2|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:35:28 AM and 1/4/2023 12:44:15 PM UTC. Search may be required.
+2023-01-04 12:44:23.9|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:35:32 AM and 1/4/2023 12:44:15 PM UTC. Search may be required.
+2023-01-04 12:44:33.8|Warn|Torznab|Indexer 1337x (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:25:00 AM and 1/4/2023 11:16:00 AM UTC. Search may be required.
+2023-01-04 12:44:34.2|Info|DownloadDecisionMaker|Processing 111 releases
+2023-01-04 12:44:35.0|Info|RssSyncService|RSS Sync Completed. Reports found: 111, Reports grabbed: 0
+2023-01-04 12:59:53.1|Info|RssSyncService|Starting RSS Sync
+2023-01-04 12:59:57.3|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/4/2023 12:44:16 PM and 1/4/2023 12:59:56 PM UTC. Search may be required.
+2023-01-04 13:00:06.0|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/4/2023 12:44:16 PM and 1/4/2023 12:59:57 PM UTC. Search may be required.
+2023-01-04 13:00:06.1|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/4/2023 12:44:16 PM and 1/4/2023 1:00:02 PM UTC. Search may be required.
+2023-01-04 13:00:10.9|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 12:44:23 PM and 1/4/2023 1:00:06 PM UTC. Search may be required.
+2023-01-04 13:00:14.1|Info|DownloadDecisionMaker|Processing 111 releases
+2023-01-04 13:00:14.5|Info|RssSyncService|RSS Sync Completed. Reports found: 111, Reports grabbed: 0
+2023-01-04 13:15:30.2|Info|RssSyncService|Starting RSS Sync
+2023-01-04 13:15:43.8|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/4/2023 1:00:03 PM and 1/4/2023 1:15:40 PM UTC. Search may be required.
+2023-01-04 13:15:43.8|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/4/2023 12:59:56 PM and 1/4/2023 1:15:41 PM UTC. Search may be required.
+2023-01-04 13:15:44.4|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/4/2023 1:00:02 PM and 1/4/2023 1:15:42 PM UTC. Search may be required.
+2023-01-04 13:15:46.9|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 1:00:10 PM and 1/4/2023 1:15:40 PM UTC. Search may be required.
+2023-01-04 13:16:02.3|Info|DownloadDecisionMaker|Processing 111 releases
+2023-01-04 13:16:05.1|Info|RssSyncService|RSS Sync Completed. Reports found: 111, Reports grabbed: 0
+2023-01-04 13:20:06.1|Info|HousekeepingService|Running housecleaning tasks
+2023-01-04 13:20:06.5|Info|ImportListSyncService|Starting Import List Sync
+2023-01-04 13:20:06.7|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2023-01-04 13:20:06.8|Info|ImportListSyncService|Processing 0 list items
+2023-01-04 13:20:07.7|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0
+2023-01-04 13:20:07.9|Info|Database|Vacuuming Log database
+2023-01-04 13:20:08.4|Info|Database|Log database compressed
+2023-01-04 13:20:08.5|Info|Database|Vacuuming Main database
+2023-01-04 13:20:12.9|Info|Database|Main database compressed
+2023-01-04 14:41:16.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 14:41:18.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 14:41:19.8|Info|Router|Application mode: Interactive
+2023-01-04 14:41:24.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 14:41:27.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 14:41:38.3|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 14:41:38.5|Info|OwinHostController|  http://*:8989/
+2023-01-04 14:42:00.6|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 14:43:10.4|Info|RssSyncService|Starting RSS Sync
+2023-01-04 14:45:30.1|Warn|Torznab|EliteTorrent.biz (Prowlarr) server is currently unavailable. http://prowlarr:9696/6/api?t=tvsearch&cat=5000&extended=1&apikey=(removed)&offset=0&limit=100 The operation has timed out.: 'http://prowlarr:9696/6/api?t=tvsearch&cat=5000&extended=1&apikey=(removed)&offset=0&limit=100'
+2023-01-04 14:45:32.1|Warn|Torznab|Torrent9 clone (Prowlarr) server is currently unavailable. http://prowlarr:9696/5/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100 The operation has timed out.: 'http://prowlarr:9696/5/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100'
+2023-01-04 14:45:32.3|Warn|Torznab|Torrent911 (Prowlarr) server is currently unavailable. http://prowlarr:9696/3/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100 The operation has timed out.: 'http://prowlarr:9696/3/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100'
+2023-01-04 14:45:30.5|Warn|Torznab|GkTorrent (Prowlarr) server is currently unavailable. http://prowlarr:9696/2/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100 The operation has timed out.: 'http://prowlarr:9696/2/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100'
+2023-01-04 14:45:29.6|Warn|Torznab|1337x (Prowlarr) server is currently unavailable. http://prowlarr:9696/8/api?t=tvsearch&cat=5000,5040,5030,5070&extended=1&apikey=(removed)&offset=0&limit=100 The operation has timed out.: 'http://prowlarr:9696/8/api?t=tvsearch&cat=5000,5040,5030,5070&extended=1&apikey=(removed)&offset=0&limit=100'
+2023-01-04 14:45:35.5|Info|DownloadDecisionMaker|No results found
+2023-01-04 14:45:37.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-01-04 15:01:06.8|Info|RssSyncService|Starting RSS Sync
+2023-01-04 15:01:10.5|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/4/2023 1:15:41 PM and 1/4/2023 3:01:09 PM UTC. Search may be required.
+2023-01-04 15:01:10.5|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/4/2023 1:15:43 PM and 1/4/2023 3:01:09 PM UTC. Search may be required.
+2023-01-04 15:01:10.5|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/4/2023 1:15:41 PM and 1/4/2023 3:01:08 PM UTC. Search may be required.
+2023-01-04 15:01:13.5|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 1:15:45 PM and 1/4/2023 3:01:09 PM UTC. Search may be required.
+2023-01-04 15:01:16.0|Warn|Torznab|Indexer 1337x (Prowlarr) rss sync didn't cover the period between 1/4/2023 1:13:00 PM and 1/4/2023 1:37:00 PM UTC. Search may be required.
+2023-01-04 15:01:16.0|Info|DownloadDecisionMaker|Processing 118 releases
+2023-01-04 15:01:16.3|Info|RssSyncService|RSS Sync Completed. Reports found: 118, Reports grabbed: 0
+2023-01-04 20:46:39.1|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 20:46:39.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:46:40.2|Info|Router|Application mode: Interactive
+2023-01-04 20:46:40.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:46:41.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:46:42.0|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 20:46:42.0|Info|OwinHostController|  http://*:8989/
+2023-01-04 20:46:43.5|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 20:47:16.4|Info|SceneMappingService|Updating Scene mappings
+2023-01-04 20:47:16.4|Info|RssSyncService|Starting RSS Sync
+2023-01-04 20:47:16.7|Info|RefreshSeriesService|Updating Kaleidoscope (2023)
+2023-01-04 20:47:17.6|Info|RefreshEpisodeService|Starting episode info refresh for: [410092][Kaleidoscope (2023)]
+2023-01-04 20:47:17.9|Info|RefreshEpisodeService|Finished episode refresh for series: [410092][Kaleidoscope (2023)].
+2023-01-04 20:47:18.2|Warn|DiskScanService|Series' root folder (/series/) is empty.
+2023-01-04 20:47:25.5|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/4/2023 3:01:09 PM and 1/4/2023 8:47:19 PM UTC. Search may be required.
+2023-01-04 20:47:25.5|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/4/2023 3:01:09 PM and 1/4/2023 8:47:19 PM UTC. Search may be required.
+2023-01-04 20:47:27.1|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/4/2023 3:01:09 PM and 1/4/2023 8:47:19 PM UTC. Search may be required.
+2023-01-04 20:47:29.7|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 3:01:13 PM and 1/4/2023 8:47:19 PM UTC. Search may be required.
+2023-01-04 20:47:36.4|Warn|Torznab|Indexer 1337x (Prowlarr) rss sync didn't cover the period between 1/4/2023 3:00:00 PM and 1/4/2023 6:34:00 PM UTC. Search may be required.
+2023-01-04 20:47:36.5|Info|DownloadDecisionMaker|Processing 120 releases
+2023-01-04 20:47:36.9|Info|RssSyncService|RSS Sync Completed. Reports found: 120, Reports grabbed: 0
+2023-01-04 21:02:50.9|Info|RssSyncService|Starting RSS Sync
+2023-01-04 21:02:52.3|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/4/2023 8:47:20 PM and 1/4/2023 9:02:52 PM UTC. Search may be required.
+2023-01-04 21:02:52.5|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/4/2023 8:47:21 PM and 1/4/2023 9:02:52 PM UTC. Search may be required.
+2023-01-04 21:02:52.5|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/4/2023 8:47:20 PM and 1/4/2023 9:02:52 PM UTC. Search may be required.
+2023-01-04 21:02:56.0|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 8:47:29 PM and 1/4/2023 9:02:52 PM UTC. Search may be required.
+2023-01-04 21:02:57.6|Info|DownloadDecisionMaker|Processing 120 releases
+2023-01-04 21:02:57.8|Info|RssSyncService|RSS Sync Completed. Reports found: 120, Reports grabbed: 0
+2023-01-04 21:11:34.6|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:11:36.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:11:36.6|Info|Router|Application mode: Interactive
+2023-01-04 21:11:37.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:11:38.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:11:39.8|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:11:39.8|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:11:41.5|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:18:16.9|Info|RssSyncService|Starting RSS Sync
+2023-01-04 21:18:20.3|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:02:52 PM and 1/4/2023 9:18:19 PM UTC. Search may be required.
+2023-01-04 21:18:20.3|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:02:52 PM and 1/4/2023 9:18:19 PM UTC. Search may be required.
+2023-01-04 21:18:20.3|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:02:52 PM and 1/4/2023 9:18:19 PM UTC. Search may be required.
+2023-01-04 21:18:22.8|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:02:55 PM and 1/4/2023 9:18:19 PM UTC. Search may be required.
+2023-01-04 21:18:25.8|Info|DownloadDecisionMaker|Processing 120 releases
+2023-01-04 21:18:26.1|Info|RssSyncService|RSS Sync Completed. Reports found: 120, Reports grabbed: 0
+2023-01-04 21:20:29.4|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:20:30.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:20:31.2|Info|Router|Application mode: Interactive
+2023-01-04 21:20:31.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:20:32.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:20:33.9|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:20:34.0|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:20:36.9|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:33:43.8|Info|RssSyncService|Starting RSS Sync
+2023-01-04 21:33:49.5|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:18:19 PM and 1/4/2023 9:33:48 PM UTC. Search may be required.
+2023-01-04 21:33:49.5|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:18:19 PM and 1/4/2023 9:33:48 PM UTC. Search may be required.
+2023-01-04 21:33:49.5|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:18:19 PM and 1/4/2023 9:33:48 PM UTC. Search may be required.
+2023-01-04 21:33:51.5|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 1/4/2023 9:18:22 PM and 1/4/2023 9:33:48 PM UTC. Search may be required.
+2023-01-04 21:33:55.0|Info|DownloadDecisionMaker|Processing 120 releases
+2023-01-04 21:33:55.4|Info|RssSyncService|RSS Sync Completed. Reports found: 120, Reports grabbed: 0

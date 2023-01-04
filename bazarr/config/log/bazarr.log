@@ -8,3 +8,27 @@
 04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Update all Episode Subtitles from disk (trigger: cron[hour='4'], next run at: 2023-01-05 04:00:00 UTC)" was missed by 5:40:23.121384|
 04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Upgrade previously downloaded Subtitles (trigger: interval[12:00:00], next run at: 2023-01-04 16:01:48 UTC)" was missed by 5:38:34.756707|
 04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Update all Movie Subtitles from disk (trigger: cron[hour='5'], next run at: 2023-01-05 05:00:00 UTC)" was missed by 4:40:23.122746|
+04/01/2023 10:47:34|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+04/01/2023 10:47:35|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+04/01/2023 10:47:35|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+04/01/2023 10:47:40|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+04/01/2023 12:43:50|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+04/01/2023 12:43:50|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+04/01/2023 12:43:50|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+04/01/2023 12:43:53|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+04/01/2023 14:43:53|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+04/01/2023 14:43:53|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+04/01/2023 14:43:54|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+04/01/2023 14:44:06|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+04/01/2023 20:46:57|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+04/01/2023 20:46:57|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+04/01/2023 20:46:57|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+04/01/2023 20:46:58|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+04/01/2023 21:12:05|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+04/01/2023 21:12:05|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+04/01/2023 21:12:05|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+04/01/2023 21:12:06|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+04/01/2023 21:20:57|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+04/01/2023 21:20:57|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+04/01/2023 21:20:57|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+04/01/2023 21:20:58|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|

@@ -1,7 +1,8 @@
 version: "3"
 services:
   plex:
-    image: plexinc/pms-docker
+    image: linuxserver/plex
+    network_mode: host
     ports:
       - 32400:32400
     volumes:
@@ -48,18 +49,6 @@ services:
     volumes:
       - ./deluge/config:/config
       - ./media:/downloads
-  # nordvpn:
-  #   image: bubuntux/nordvpn
-  #   cap_add:
-  #     - NET_ADMIN
-  #   devices:
-  #     - /dev/net/tun
-  #   environment:
-  #     - USER= 
-  #     - PASS=xxxxxx
-  #     - CONNECT=United Kingdom
-  #     - TECHNOLOGY=NordLynx
-  #     - NETWORK=
   FlareSolverr:
     image: ghcr.io/flaresolverr/flaresolverr
     container_name: FlareSolverr
@@ -71,3 +60,22 @@ services:
       - LOG_FILE=/data/log.txt
     volumes:
       - ./FlareSolverr:/data
+  swag:
+    image: linuxserver/swag
+    container_name: swag
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - URL=linuxserver-test.com
+      - SUBDOMAINS=wildcard
+      - VALIDATION=dns
+      - DNSPLUGIN=cloudflare
+    volumes:
+      - ./swag:/config
+    ports:
+      - 443:443
+      - 80:80
+    restart: unless-stopped

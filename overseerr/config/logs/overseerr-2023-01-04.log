@@ -1238,3 +1238,266 @@
 2023-01-04T10:17:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2023-01-04T10:18:00.002Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2023-01-04T10:19:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T10:47:24.643Z [info]: Commit Tag: v1.31.0 
+2023-01-04T10:47:34.313Z [info]: Starting Overseerr version 1.31.0 
+2023-01-04T12:43:40.290Z [info]: Commit Tag: v1.31.0 
+2023-01-04T12:43:44.690Z [info]: Starting Overseerr version 1.31.0 
+2023-01-04T12:44:09.315Z [info][Notifications]: Registered notification agents 
+2023-01-04T12:44:10.188Z [info][Jobs]: Scheduled jobs loaded 
+2023-01-04T12:44:10.946Z [info][Server]: Server ready on port 5055 
+2023-01-04T12:45:00.227Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:45:00.821Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T12:45:00.969Z [info][Plex Scan]: Scan starting {"sessionId":"84c937ee-699c-45eb-bd65-82695f69366a"}
+2023-01-04T12:45:02.154Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672825200034}
+2023-01-04T12:45:02.429Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672825200054}
+2023-01-04T12:45:02.475Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T12:46:00.488Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:47:00.248Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:48:00.119Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:49:00.134Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:50:00.258Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:50:00.602Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T12:50:00.603Z [info][Plex Scan]: Scan starting {"sessionId":"984d578c-9cf2-49bd-a023-665a080eeb17"}
+2023-01-04T12:50:00.789Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T12:50:01.027Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672836302401}
+2023-01-04T12:50:01.182Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672836302461}
+2023-01-04T12:50:01.218Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T12:51:00.402Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:52:00.303Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:53:00.098Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:54:00.088Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:55:00.087Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:55:00.153Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T12:55:00.164Z [info][Plex Scan]: Scan starting {"sessionId":"40051ffb-af81-4028-bfe4-747170e48a98"}
+2023-01-04T12:55:00.444Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672836601167}
+2023-01-04T12:55:00.582Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672836601208}
+2023-01-04T12:55:00.616Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T12:56:00.288Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:57:00.104Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:58:00.074Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T12:59:00.318Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:00:02.480Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:00:02.969Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T13:00:02.996Z [info][Plex Scan]: Scan starting {"sessionId":"bb7c9780-6809-4b01-ad51-d15b55212cb4"}
+2023-01-04T13:00:03.411Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T13:00:04.920Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672836900535}
+2023-01-04T13:00:05.611Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672836900608}
+2023-01-04T13:00:05.798Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T13:01:00.089Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:02:00.587Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:03:00.069Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:04:00.169Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:05:00.426Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:05:00.785Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T13:05:00.800Z [info][Plex Scan]: Scan starting {"sessionId":"be577936-b48d-496b-8746-d6761b96b4ae"}
+2023-01-04T13:05:02.358Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672837205551}
+2023-01-04T13:05:02.777Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672837205784}
+2023-01-04T13:05:03.104Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T13:06:00.295Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:06:19.435Z [error]: Error checking user access: Cannot read properties of undefined (reading 'find') 
+2023-01-04T13:06:19.438Z [warn][API]: Failed sign-in attempt by Plex user without access to the media server {"ip":"::ffff:172.27.0.1","email":"yalicheff.sebastien@gmail.com","plexId":194246232,"plexUsername":"sbastienyalicheff"}
+2023-01-04T13:06:36.869Z [error]: Error checking user access: Cannot read properties of undefined (reading 'find') 
+2023-01-04T13:06:36.876Z [warn][API]: Failed sign-in attempt by Plex user without access to the media server {"ip":"::ffff:172.27.0.1","email":"yalicheff.sebastien@gmail.com","plexId":194246232,"plexUsername":"sbastienyalicheff"}
+2023-01-04T13:07:00.077Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:08:03.309Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:09:00.093Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:10:00.090Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:10:00.217Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T13:10:00.235Z [info][Plex Scan]: Scan starting {"sessionId":"d7ff16d3-8e60-41bc-a824-6a2310889209"}
+2023-01-04T13:10:00.373Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T13:10:01.438Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672837502591}
+2023-01-04T13:10:01.648Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672837502984}
+2023-01-04T13:10:01.708Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T13:11:00.372Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:12:00.105Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:13:00.282Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:14:00.422Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:15:00.459Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:15:01.201Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T13:15:01.241Z [info][Plex Scan]: Scan starting {"sessionId":"5c9dba18-3808-4cf3-8f90-787831de2949"}
+2023-01-04T13:15:04.103Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672837801607}
+2023-01-04T13:15:04.496Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672837801682}
+2023-01-04T13:15:04.609Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T13:16:00.813Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:17:00.510Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:18:00.110Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:19:00.694Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:20:00.125Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:20:00.224Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T13:20:00.240Z [info][Plex Scan]: Scan starting {"sessionId":"8b7bf3d7-9f78-4a43-9a66-0a20fba6b749"}
+2023-01-04T13:20:00.377Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T13:20:00.662Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672838104402}
+2023-01-04T13:20:00.774Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672838104549}
+2023-01-04T13:20:00.807Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T13:21:00.436Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:22:00.819Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:23:00.351Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:24:00.303Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:25:00.081Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:25:00.265Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T13:25:00.312Z [info][Plex Scan]: Scan starting {"sessionId":"243e09e8-0c4b-4c77-abb0-912cc413fe9f"}
+2023-01-04T13:25:01.058Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672838400744}
+2023-01-04T13:25:01.270Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672838400791}
+2023-01-04T13:25:01.307Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T13:26:00.152Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:27:00.071Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:28:00.126Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T13:29:00.053Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:43:17.157Z [info]: Commit Tag: v1.31.0 
+2023-01-04T14:43:46.446Z [info]: Starting Overseerr version 1.31.0 
+2023-01-04T14:44:23.690Z [info][Notifications]: Registered notification agents 
+2023-01-04T14:44:23.871Z [info][Jobs]: Scheduled jobs loaded 
+2023-01-04T14:44:25.144Z [info][Server]: Server ready on port 5055 
+2023-01-04T14:45:08.820Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:45:12.105Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T14:45:12.178Z [info][Plex Scan]: Scan starting {"sessionId":"69ac7524-dfe3-4f8f-b723-88fc2e20a9f6"}
+2023-01-04T14:45:31.414Z [error]: Error checking user access: Cannot read properties of undefined (reading 'find') 
+2023-01-04T14:45:31.443Z [warn][API]: Failed sign-in attempt by Plex user without access to the media server {"ip":"::ffff:172.27.0.1","email":"yalicheff.sebastien@gmail.com","plexId":194246232,"plexUsername":"sbastienyalicheff"}
+2023-01-04T14:45:31.655Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672838701234}
+2023-01-04T14:45:33.326Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672838701291}
+2023-01-04T14:45:33.425Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T14:46:02.408Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:47:00.967Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:48:00.276Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:49:00.246Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:50:00.185Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:50:00.279Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T14:50:00.301Z [info][Plex Scan]: Scan starting {"sessionId":"f6f7749f-7769-44f2-93e6-60a072e1258b"}
+2023-01-04T14:50:00.459Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T14:50:00.735Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672843533309}
+2023-01-04T14:50:00.869Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672843533406}
+2023-01-04T14:50:00.899Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T14:51:00.168Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:52:00.109Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:53:00.766Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:54:05.539Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:55:00.241Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:55:00.489Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T14:55:00.528Z [info][Plex Scan]: Scan starting {"sessionId":"e438d308-3500-4284-a73d-3e175b63d909"}
+2023-01-04T14:55:01.160Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672843800846}
+2023-01-04T14:55:01.384Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672843800889}
+2023-01-04T14:55:01.535Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T14:56:00.287Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:57:00.419Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:58:00.200Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T14:59:00.132Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:00:00.209Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:00:00.305Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T15:00:00.320Z [info][Plex Scan]: Scan starting {"sessionId":"383e1986-3bb5-4d59-a378-8aa0acd2a0e3"}
+2023-01-04T15:00:00.562Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T15:00:00.954Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672844101289}
+2023-01-04T15:00:01.200Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672844101492}
+2023-01-04T15:00:01.246Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T15:01:00.121Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:02:00.165Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:03:00.056Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:04:00.514Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:05:00.409Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:05:00.563Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T15:05:00.578Z [info][Plex Scan]: Scan starting {"sessionId":"4860c2c3-155e-4de3-819e-edaf6e064663"}
+2023-01-04T15:05:02.045Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672844401049}
+2023-01-04T15:05:02.511Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672844401231}
+2023-01-04T15:05:02.558Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T15:06:00.497Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:07:00.462Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T15:08:00.121Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:46:52.613Z [info]: Commit Tag: v1.31.0 
+2023-01-04T20:46:53.924Z [info]: Starting Overseerr version 1.31.0 
+2023-01-04T20:46:58.527Z [info][Notifications]: Registered notification agents 
+2023-01-04T20:46:58.584Z [info][Jobs]: Scheduled jobs loaded 
+2023-01-04T20:46:59.026Z [info][Server]: Server ready on port 5055 
+2023-01-04T20:47:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:48:00.234Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:49:00.058Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:50:00.079Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:50:00.144Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T20:50:00.228Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T20:50:00.244Z [info][Plex Scan]: Scan starting {"sessionId":"a89a3b65-b84f-4914-9660-7a08666cbb6b"}
+2023-01-04T20:50:00.369Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672844702289}
+2023-01-04T20:50:00.516Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672844702543}
+2023-01-04T20:50:00.537Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T20:51:00.044Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:52:00.071Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:53:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:54:00.053Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:55:00.052Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:55:00.092Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T20:55:00.101Z [info][Plex Scan]: Scan starting {"sessionId":"ffc3051c-8d1b-49c1-99ac-4f4c326a9ce5"}
+2023-01-04T20:55:00.224Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672865400499}
+2023-01-04T20:55:00.264Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672865400528}
+2023-01-04T20:55:00.286Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T20:56:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:57:00.045Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:58:00.039Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T20:59:00.038Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:00:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:00:00.071Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T21:00:00.075Z [info][Plex Scan]: Scan starting {"sessionId":"67fdac63-a230-4bce-b9de-029dee087f6d"}
+2023-01-04T21:00:00.111Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T21:00:00.199Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672865700254}
+2023-01-04T21:00:00.240Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672865700281}
+2023-01-04T21:00:00.271Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T21:01:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:02:00.013Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:03:00.104Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:04:00.047Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:05:00.013Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:05:00.043Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T21:05:00.048Z [info][Plex Scan]: Scan starting {"sessionId":"65dab8ef-1e12-429b-8f68-37f5e8c9c1b9"}
+2023-01-04T21:05:00.210Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672866000228}
+2023-01-04T21:05:00.261Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672866000265}
+2023-01-04T21:05:00.291Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T21:06:00.056Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:07:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:08:00.129Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:09:00.092Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:10:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:10:00.056Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T21:10:00.060Z [info][Plex Scan]: Scan starting {"sessionId":"1d4c064c-9f27-4e83-a209-d8342842b1cb"}
+2023-01-04T21:10:00.127Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T21:10:00.235Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672866300243}
+2023-01-04T21:10:00.285Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672866300284}
+2023-01-04T21:10:00.314Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T21:11:55.084Z [info]: Commit Tag: v1.31.0 
+2023-01-04T21:12:00.073Z [info]: Starting Overseerr version 1.31.0 
+2023-01-04T21:12:07.262Z [info][Notifications]: Registered notification agents 
+2023-01-04T21:12:07.357Z [info][Jobs]: Scheduled jobs loaded 
+2023-01-04T21:12:07.745Z [info][Server]: Server ready on port 5055 
+2023-01-04T21:13:00.115Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:14:00.055Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:15:00.080Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:15:00.110Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T21:15:00.122Z [info][Plex Scan]: Scan starting {"sessionId":"3ea7ac17-efe5-4411-868a-74b59642b8df"}
+2023-01-04T21:15:00.302Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1672866600275}
+2023-01-04T21:15:00.410Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1672866600304}
+2023-01-04T21:15:00.438Z [info][Plex Scan]: Recently Added Scan Complete 
+2023-01-04T21:16:00.068Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:17:00.095Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:18:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:19:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:20:42.769Z [info]: Commit Tag: v1.31.0 
+2023-01-04T21:20:46.635Z [info]: Starting Overseerr version 1.31.0 
+2023-01-04T21:20:54.488Z [info][Notifications]: Registered notification agents 
+2023-01-04T21:20:54.624Z [info][Jobs]: Scheduled jobs loaded 
+2023-01-04T21:20:55.522Z [info][Server]: Server ready on port 5055 
+2023-01-04T21:21:00.221Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:22:00.051Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:23:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:24:00.042Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:25:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:25:00.048Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T21:25:00.052Z [info][Plex Scan]: Scan starting {"sessionId":"472ad250-0098-455d-8df0-25a8268cc962"}
+2023-01-04T21:25:00.201Z [error][Plex Scan]: Scan interrupted {"errorMessage":"getaddrinfo ENOTFOUND plex"}
+2023-01-04T21:26:00.041Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:27:00.039Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:28:00.132Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:29:00.068Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:30:00.061Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:30:00.091Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2023-01-04T21:30:00.097Z [info][Plex Scan]: Scan starting {"sessionId":"5f1cef3e-8691-46ab-8587-2c8eeef9a9dc"}
+2023-01-04T21:30:00.179Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2023-01-04T21:30:00.311Z [error][Plex Scan]: Scan interrupted {"errorMessage":"getaddrinfo ENOTFOUND plex"}
+2023-01-04T21:31:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:32:00.244Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:33:00.049Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2023-01-04T21:34:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
