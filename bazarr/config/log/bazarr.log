@@ -1,0 +1,10 @@
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Update Series list from Sonarr (trigger: interval[1:00:00], next run at: 2023-01-04 10:34:58 UTC)" was missed by 0:05:24.734392|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Update Movie list from Radarr (trigger: interval[1:00:00], next run at: 2023-01-04 10:39:29 UTC)" was missed by 0:00:53.740827|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Sync episodes with Sonarr (trigger: interval[1:00:00], next run at: 2023-01-04 09:41:44 UTC)" was missed by 0:58:38.741181|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Update Release Info (trigger: interval[3:00:00], next run at: 2023-01-04 11:33:17 UTC)" was missed by 1:07:05.743552|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Search for wanted Movies Subtitles (trigger: interval[3:00:00], next run at: 2023-01-04 11:41:13 UTC)" was missed by 0:59:09.744963|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Search for wanted Series Subtitles (trigger: interval[3:00:00], next run at: 2023-01-04 11:43:55 UTC)" was missed by 0:56:27.748143|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Check health (trigger: interval[6:00:00], next run at: 2023-01-04 10:23:55 UTC)" was missed by 5:16:27.749892|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Update all Episode Subtitles from disk (trigger: cron[hour='4'], next run at: 2023-01-05 04:00:00 UTC)" was missed by 5:40:23.121384|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Upgrade previously downloaded Subtitles (trigger: interval[12:00:00], next run at: 2023-01-04 16:01:48 UTC)" was missed by 5:38:34.756707|
+04/01/2023 09:40:23|WARNING |apscheduler.executors.default   |Run time of job "Update all Movie Subtitles from disk (trigger: cron[hour='5'], next run at: 2023-01-05 05:00:00 UTC)" was missed by 4:40:23.122746|

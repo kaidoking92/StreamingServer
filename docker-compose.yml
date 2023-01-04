@@ -1,0 +1,73 @@
+version: "3"
+services:
+  plex:
+    image: plexinc/pms-docker
+    ports:
+      - 32400:32400
+    volumes:
+      - ./plex/config:/config
+      - ./media:/data
+  overseerr:
+    image: linuxserver/overseerr
+    ports:
+      - 5055:5055
+    volumes:
+      - ./overseerr/config:/config
+  radarr:
+    image: linuxserver/radarr
+    ports:
+      - 7878:7878
+    volumes:
+      - ./radarr/config:/config
+      - ./media/films:/movies
+  sonarr:
+    image: linuxserver/sonarr
+    ports:
+      - 8989:8989
+    volumes:
+      - ./sonarr/config:/config
+      - ./media/series:/series
+  bazarr:
+    image: linuxserver/bazarr
+    ports:
+      - 6767:6767
+    volumes:
+      - ./bazarr/config:/config
+      - ./media:/data
+  prowlarr:
+    image: linuxserver/prowlarr
+    ports:
+      - 9696:9696
+    volumes:
+      - ./prowlarr/config:/config
+  deluge:
+    image: linuxserver/deluge
+    ports:
+      - 8112:8112
+      - 58846:58846
+    volumes:
+      - ./deluge/config:/config
+      - ./media:/downloads
+  # nordvpn:
+  #   image: bubuntux/nordvpn
+  #   cap_add:
+  #     - NET_ADMIN
+  #   devices:
+  #     - /dev/net/tun
+  #   environment:
+  #     - USER= 
+  #     - PASS=xxxxxx
+  #     - CONNECT=United Kingdom
+  #     - TECHNOLOGY=NordLynx
+  #     - NETWORK=
+  FlareSolverr:
+    image: ghcr.io/flaresolverr/flaresolverr
+    container_name: FlareSolverr
+    restart: unless-stopped
+    ports:
+      - 8191:8191
+    environment:
+      - LOG_LEVEL=info
+      - LOG_FILE=/data/log.txt
+    volumes:
+      - ./FlareSolverr:/data

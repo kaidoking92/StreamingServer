@@ -1,0 +1,164 @@
+2023-01-03 23:02:16.6|Error|Torznab|An error occurred while processing indexer feed. http://prowlarr:9696/7/api?t=movie&cat=2000,2040,2080&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection aborted.
+ ---> System.Net.Sockets.SocketException (103): Connection aborted
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 309
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 282
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+FeedUrl: http://prowlarr:9696/7/api?t=movie&cat=2000,2040,2080&extended=1&apikey=(removed)&offset=0&limit=100
+
+2023-01-03 23:02:16.6|Info|DownloadDecisionMaker|Processing 10 releases
+2023-01-03 23:02:16.7|Info|RssSyncService|RSS Sync Completed. Reports found: 10, Reports grabbed: 0
+2023-01-04 00:20:20.4|Info|RssSyncService|Starting RSS Sync
+2023-01-04 00:20:20.9|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 01/03/2023 21:13:04 and 01/04/2023 00:20:20 UTC. Search may be required.
+2023-01-04 00:20:21.1|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 01/03/2023 17:40:39 and 01/04/2023 00:20:20 UTC. Search may be required.
+2023-01-04 00:20:21.4|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 01/03/2023 17:40:39 and 01/04/2023 00:20:21 UTC. Search may be required.
+2023-01-04 00:53:50.3|Warn|Torznab|Indexer 1337x (Prowlarr) rss sync didn't cover the period between 01/03/2023 17:15:00 and 01/03/2023 18:00:00 UTC. Search may be required.
+2023-01-04 04:42:45.1|Error|Torznab|An error occurred while processing indexer feed. http://prowlarr:9696/7/api?t=movie&cat=2000,2040,2080&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection aborted.
+ ---> System.Net.Sockets.SocketException (103): Connection aborted
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 309
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 282
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+FeedUrl: http://prowlarr:9696/7/api?t=movie&cat=2000,2040,2080&extended=1&apikey=(removed)&offset=0&limit=100
+
+2023-01-04 04:42:45.1|Info|DownloadDecisionMaker|Processing 62 releases
+2023-01-04 04:42:45.2|Info|RssSyncService|RSS Sync Completed. Reports found: 62, Reports grabbed: 0
+2023-01-04 06:00:32.1|Info|RssSyncService|Starting RSS Sync
+2023-01-04 06:00:32.6|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 01/04/2023 00:20:21 and 01/04/2023 06:00:32 UTC. Search may be required.
+2023-01-04 06:00:32.6|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 01/04/2023 00:20:21 and 01/04/2023 06:00:32 UTC. Search may be required.
+2023-01-04 06:00:32.7|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 01/04/2023 00:20:20 and 01/04/2023 06:00:32 UTC. Search may be required.
+2023-01-04 07:05:37.4|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 01/03/2023 17:40:43 and 01/04/2023 06:00:32 UTC. Search may be required.
+2023-01-04 08:23:42.6|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Name does not resolve (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name does not resolve
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in D:\a\1\s\src\NzbDrone.Core\Update\UpdatePackageProvider.cs:line 53
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in D:\a\1\s\src\NzbDrone.Core\Update\UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in D:\a\1\s\src\NzbDrone.Core\Update\InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in D:\a\1\s\src\NzbDrone.Core\Update\InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2023-01-04 08:23:42.8|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Name does not resolve (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name does not resolve
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\SystemTimeCheck.cs:line 30
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 118
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2023-01-04 08:40:06.2|Error|Torznab|An error occurred while processing indexer feed. http://prowlarr:9696/7/api?t=movie&cat=2000,2040,2080&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection aborted.
+ ---> System.Net.Sockets.SocketException (103): Connection aborted
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 309
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 282
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+FeedUrl: http://prowlarr:9696/7/api?t=movie&cat=2000,2040,2080&extended=1&apikey=(removed)&offset=0&limit=100
+
+2023-01-04 08:40:06.2|Info|DownloadDecisionMaker|Processing 124 releases
+2023-01-04 08:40:06.4|Info|RssSyncService|RSS Sync Completed. Reports found: 124, Reports grabbed: 0
+2023-01-04 09:40:23.3|Info|RssSyncService|Starting RSS Sync
+2023-01-04 09:40:23.7|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 01/04/2023 06:00:32 and 01/04/2023 09:40:23 UTC. Search may be required.
+2023-01-04 09:40:23.8|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 01/04/2023 06:00:32 and 01/04/2023 09:40:23 UTC. Search may be required.
+2023-01-04 09:40:23.8|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 01/04/2023 06:00:32 and 01/04/2023 09:40:23 UTC. Search may be required.
+2023-01-04 09:40:27.9|Warn|Torznab|Indexer EliteTorrent.biz (Prowlarr) rss sync didn't cover the period between 01/04/2023 07:05:37 and 01/04/2023 09:40:23 UTC. Search may be required.
+2023-01-04 09:40:54.5|Info|DownloadDecisionMaker|Processing 162 releases
+2023-01-04 09:40:54.7|Info|RssSyncService|RSS Sync Completed. Reports found: 162, Reports grabbed: 0

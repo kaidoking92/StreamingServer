@@ -1,0 +1,1359 @@
+Jan 03, 2023 16:03:09.421 [0x4006436b38] INFO - Plex Media Server v1.30.0.6486-629d58034 - Docker Docker Container x86_64 - build: linux-x86_64 debian - GMT 00:00
+Jan 03, 2023 16:03:09.442 [0x4006436b38] INFO - Linux version: 5.10.76-linuxkit, language: en-US
+Jan 03, 2023 16:03:09.448 [0x4006436b38] INFO - Processor: 4-core QEMU TCG CPU version 2.5+
+Jan 03, 2023 16:03:09.453 [0x4006436b38] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+Jan 03, 2023 16:03:09.457 [0x4006436b38] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Jan 03, 2023 16:03:09.407 [0x4002a2b260] DEBUG - BPQ: [Idle] -> [Starting]
+Jan 03, 2023 16:03:09.467 [0x4002a2b260] DEBUG - FeatureManager: Using cached data for features list
+Jan 03, 2023 16:03:09.691 [0x4002a2b260] DEBUG - [CERT] Subject name is /CN=*.abc8e2b097594ef288e7f4ea9b1c0810.plex.direct
+Jan 03, 2023 16:03:09.693 [0x4002a2b260] DEBUG - [CERT] Installed certificate with fingerprint b9:ba:a5:fd:6a:e2:76:3b:5f:ed:e9:9f:71:01:12:c4:79:3a:d5:13.
+Jan 03, 2023 16:03:09.695 [0x4002a2b260] DEBUG - [CERT/OCSP] Stapling requests will be made to 'http://r3.o.lencr.org/'.
+Jan 03, 2023 16:03:09.705 [0x4002a2b260] INFO - [CERT/OCSP] Successfully retrieved response from cache.
+Jan 03, 2023 16:03:09.707 [0x4002a2b260] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+Jan 03, 2023 16:03:09.708 [0x4002a2b260] DEBUG - HttpServer: Listening on port 32400.
+Jan 03, 2023 16:03:09.716 [0x4002a2b260] DEBUG - HttpServer: Listening on port 32401.
+Jan 03, 2023 16:03:09.716 [0x4002a2b260] DEBUG - Running server...
+Jan 03, 2023 16:03:09.717 [0x4002a2b260] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jan 03, 2023 16:03:09.719 [0x4006f23b38] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Jan 03, 2023 16:03:10.122 [0x4002a2b260] INFO - Running migrations. (EPG 0)
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 0.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 1.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 2.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 3.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 4.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 5.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 6.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 7.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 8.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 9.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 10.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 11.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 12.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 13.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 14.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 15.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 16.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 17.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 18.
+Jan 03, 2023 16:03:10.130 [0x4002a2b260] DEBUG - Captured session 19.
+Jan 03, 2023 16:03:10.155 [0x4002a2b260] DEBUG - ChangestampAllocator: initialized to 2
+Jan 03, 2023 16:03:10.160 [0x4002a2b260] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.35.5, threadsafe=1
+Jan 03, 2023 16:03:10.263 [0x4002a2b260] INFO - Running migrations. (EPG 0)
+Jan 03, 2023 16:03:10.267 [0x4002a2b260] DEBUG - Captured session 0.
+Jan 03, 2023 16:03:10.267 [0x4002a2b260] DEBUG - Captured session 1.
+Jan 03, 2023 16:03:10.454 [0x4007960b38] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jan 03, 2023 16:03:10.474 [0x4002a2b260] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Jan 03, 2023 16:03:10.476 [0x4007e89b38] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jan 03, 2023 16:03:10.477 [0x4007960b38] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jan 03, 2023 16:03:10.478 [0x4002a2b260] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jan 03, 2023 16:03:10.484 [0x4007e89b38] DEBUG - Relay: read 3 cached entries from hosts file
+Jan 03, 2023 16:03:10.507 [0x4002a2b260] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.511 [0x4007e89b38] DEBUG - [MediaProviderManager/HCl#1] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.514 [0x4002a2b260] DEBUG - MyPlex: updating with 3 access tokens
+Jan 03, 2023 16:03:10.524 [0x4002a2b260] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.530 [0x4002a2b260] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.535 [0x4002a2b260] DEBUG - MyPlex: no cached data to load for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.537 [0x4007960b38] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jan 03, 2023 16:03:10.539 [0x4007960b38] DEBUG - [HCl#2] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.544 [0x4002a2b260] DEBUG - Opening 1 database sessions to library (), SQLite 3.35.5, threadsafe=1
+Jan 03, 2023 16:03:10.564 [0x4008945b38] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-629d58034" changed: -1 => 2022-12-08 10:37:36 (1670495856).
+Jan 03, 2023 16:03:10.566 [0x4008945b38] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2023-01-03 13:20:44 (1672752044).
+Jan 03, 2023 16:03:10.566 [0x4008945b38] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-629d58034"
+Jan 03, 2023 16:03:10.575 [0x4008945b38] DEBUG - Not starting plug-in with duplicate identifier: com.plexapp.plugins.webclient found in: /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/ServerManager.bundle
+Jan 03, 2023 16:03:10.577 [0x4008945b38] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Jan 03, 2023 16:03:10.578 [0x4008945b38] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Jan 03, 2023 16:03:10.579 [0x4008945b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/System.bundle.
+Jan 03, 2023 16:03:10.588 [0x4008945b38] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Jan 03, 2023 16:03:10.594 [0x4008945b38] DEBUG - Starting file watcher for com.plexapp.system
+Jan 03, 2023 16:03:10.598 [0x4008945b38] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Jan 03, 2023 16:03:10.598 [0x4008945b38] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Jan 03, 2023 16:03:10.606 [0x4008945b38] DEBUG - Spawned plug-in com.plexapp.system with PID 1201
+Jan 03, 2023 16:03:10.610 [0x4008945b38] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Jan 03, 2023 16:03:10.884 [0x40080bfb38] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.4s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.889 [0x40082d6b38] DEBUG - [MediaProviderManager/HCl#3] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.913 [0x40080bfb38] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.4s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.921 [0x4007960b38] DEBUG - MyPlex: updating with 3 access tokens
+Jan 03, 2023 16:03:10.921 [0x4007960b38] DEBUG - [HCl#4] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:10.974 [0x40080bfb38] DEBUG - [HttpClient/HCl#3] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:10.976 [0x40082d6b38] DEBUG - [MediaProviderManager/HCl#5] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:11.032 [0x40080bfb38] DEBUG - [HttpClient/HCl#4] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:11.040 [0x4009375b38] DEBUG - [HCl#6] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:11.059 [0x40080bfb38] DEBUG - [HttpClient/HCl#5] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:11.060 [0x40082d6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & TV)
+Jan 03, 2023 16:03:11.060 [0x40082d6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Music)
+Jan 03, 2023 16:03:11.060 [0x40082d6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Jan 03, 2023 16:03:11.062 [0x40082d6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 0)
+Jan 03, 2023 16:03:11.062 [0x4007e89b38] DEBUG - [MediaProviderManager/HCl#8] HTTP requesting GET https://vod.provider.plex.tv
+Jan 03, 2023 16:03:11.063 [0x40095ddb38] DEBUG - [MediaProviderManager/HCl#7] HTTP requesting GET https://music.provider.plex.tv
+Jan 03, 2023 16:03:11.130 [0x40080bfb38] DEBUG - [HttpClient/HCl#6] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:11.141 [0x4009375b38] DEBUG - MyPlex: no cached data to load for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:11.412 [0x400a828b38] DEBUG - Request: [192.168.144.1:56206 (Subnet)] GET /media/providers (3 live) #3 GZIP Token ()
+Jan 03, 2023 16:03:11.412 [0x400aa2bb38] DEBUG - Request: [192.168.144.1:56204 (Subnet)] GET /media/providers (3 live) #1 GZIP Token ()
+Jan 03, 2023 16:03:11.439 [0x40068ceb38] DEBUG - Completed: [192.168.144.1:56204] 503 GET /media/providers (3 live) GZIP 29ms 436 bytes (pipelined: 1)
+Jan 03, 2023 16:03:11.439 [0x4006ad1b38] DEBUG - Completed: [192.168.144.1:56206] 503 GET /media/providers (3 live) GZIP 29ms 564 bytes (pipelined: 1)
+Jan 03, 2023 16:03:11.481 [0x40080bfb38] DEBUG - [HttpClient/HCl#8] HTTP/2.0 (0.4s) 200 response from GET https://vod.provider.plex.tv
+Jan 03, 2023 16:03:11.489 [0x4007e89b38] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.30.0.6486-629d58034" --version=1.30.0.6486-629d58034 --platform=Linux --platformVersion=5.10.76-linuxkit --serverUuid=9449cbc9ca788c4ad1934f7dda63226ffd1e1d27 --userId=ayoub.bouzalmad@gmail.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/minidump/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container" --allowRetries=0
+Jan 03, 2023 16:03:11.491 [0x4007e89b38] DEBUG - [JobRunner] Jobs: Starting child process with pid 1211
+Jan 03, 2023 16:03:11.495 [0x40082d6b38] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability
+Jan 03, 2023 16:03:11.495 [0x40082d6b38] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability-platforms
+Jan 03, 2023 16:03:11.495 [0x40082d6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Music) (alive: 0)
+Jan 03, 2023 16:03:11.496 [0x40082d6b38] DEBUG - [MediaProviderManager/HCl#b] HTTP requesting GET https://music.provider.plex.tv
+Jan 03, 2023 16:03:11.507 [0x4007960b38] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability
+Jan 03, 2023 16:03:11.508 [0x4007960b38] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability-platforms
+Jan 03, 2023 16:03:11.508 [0x40080bfb38] DEBUG - [HttpClient/HCl#7] HTTP/2.0 (0.4s) 200 response from GET https://music.provider.plex.tv
+Jan 03, 2023 16:03:11.576 [0x40080bfb38] DEBUG - [HttpClient/HCl#b] HTTP/2.0 (0.1s) 200 response from GET https://music.provider.plex.tv (reused)
+Jan 03, 2023 16:03:11.578 [0x40082d6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & TV) (alive: 1)
+Jan 03, 2023 16:03:11.578 [0x40082d6b38] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 3
+Jan 03, 2023 16:03:11.578 [0x40082d6b38] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Jan 03, 2023 16:03:11.579 [0x40082d6b38] DEBUG - [MediaProviderManager] cloud provider (Music) is online and available
+Jan 03, 2023 16:03:11.579 [0x40082d6b38] DEBUG - [MediaProviderManager] cloud provider (Movies & TV) is online and available
+Jan 03, 2023 16:03:11.665 [0x400665cb38] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 1211 is 0 (success)
+Jan 03, 2023 16:03:14.050 [0x400a828b38] DEBUG - Request: [127.0.0.1:50088 (Loopback)] GET /identity (4 live) #4
+Jan 03, 2023 16:03:14.052 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50088] 503 GET /identity (4 live) 1ms 375 bytes (pipelined: 1)
+Jan 03, 2023 16:03:15.771 [0x400a828b38] DEBUG - Request: [127.0.0.1:50090 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (5 live) #8 GZIP Token ()
+Jan 03, 2023 16:03:15.772 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50090] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (5 live) GZIP 1ms 436 bytes
+Jan 03, 2023 16:03:15.781 [0x400aa2bb38] DEBUG - Request: [127.0.0.1:50092 (Loopback)] GET / (5 live) #a GZIP Token ()
+Jan 03, 2023 16:03:15.781 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50092] 503 GET / (5 live) GZIP 0ms 436 bytes
+Jan 03, 2023 16:03:19.259 [0x400a828b38] DEBUG - Request: [127.0.0.1:50098 (Loopback)] GET /identity (4 live) #c
+Jan 03, 2023 16:03:19.259 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50098] 503 GET /identity (4 live) 0ms 375 bytes (pipelined: 1)
+Jan 03, 2023 16:03:20.456 [0x4007e89b38] DEBUG - Grabber: Plex Tuner Service not running; retrying in 10 seconds.
+Jan 03, 2023 16:03:20.771 [0x400aa2bb38] DEBUG - Request: [127.0.0.1:50100 (Loopback)] GET /servers (4 live) #f GZIP Token ()
+Jan 03, 2023 16:03:20.772 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50100] 503 GET /servers (4 live) GZIP 2ms 436 bytes
+Jan 03, 2023 16:03:20.912 [0x4008945b38] DEBUG - Reading 486 bytes in the body, code is 200
+Jan 03, 2023 16:03:20.914 [0x4008945b38] DEBUG - [com.plexapp.system] Plug-in running on port 46795.
+Jan 03, 2023 16:03:20.914 [0x4008945b38] DEBUG -  * Plug-in handles prefix: /system
+Jan 03, 2023 16:03:20.914 [0x4008945b38] DEBUG -  * Plug-in handles prefix: /player
+Jan 03, 2023 16:03:20.915 [0x4008945b38] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Jan 03, 2023 16:03:20.927 [0x4008945b38] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Jan 03, 2023 16:03:20.927 [0x4008945b38] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Jan 03, 2023 16:03:20.927 [0x4008945b38] DEBUG - Updating the list of agents known by the system.
+Jan 03, 2023 16:03:20.927 [0x4008945b38] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Jan 03, 2023 16:03:20.928 [0x4008945b38] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:46795/system/agents
+Jan 03, 2023 16:03:20.930 [0x4002a2b260] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Jan 03, 2023 16:03:20.940 [0x4002a2b260] DEBUG - Transcoder: Cleaning old transcode directories.
+Jan 03, 2023 16:03:20.950 [0x4002a2b260] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:20.954 [0x4002a2b260] DEBUG - MyPlex: updating with 3 access tokens
+Jan 03, 2023 16:03:20.957 [0x4002a2b260] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:20.957 [0x40095ddb38] DEBUG - [MediaProviderManager/HCl#d] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:20.962 [0x4002a2b260] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:20.966 [0x4002a2b260] DEBUG - MyPlex: no cached data to load for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:20.968 [0x4002a2b260] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Jan 03, 2023 16:03:20.976 [0x4002a2b260] DEBUG - MyPlex: username is ayoub.bo8, login is ayoub.bouzalmad@gmail.com, home is 0, no pin
+Jan 03, 2023 16:03:20.995 [0x4002a2b260] DEBUG - MyPlex: start public ip check and mapping - current mapped state: 'Unknown'.
+Jan 03, 2023 16:03:20.995 [0x4002a2b260] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jan 03, 2023 16:03:20.995 [0x400b138b38] DEBUG - [HCl#e] HTTP requesting GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Jan 03, 2023 16:03:20.995 [0x4002a2b260] DEBUG - PublicAddressManager: Starting.
+Jan 03, 2023 16:03:20.995 [0x4002a2b260] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Jan 03, 2023 16:03:20.996 [0x40082d6b38] DEBUG - PublicAddressManager: Obtaining public IP.
+Jan 03, 2023 16:03:20.997 [0x40082d6b38] DEBUG - [HCl#f] HTTP requesting GET https://v4.plex.tv/pms/:/ip
+Jan 03, 2023 16:03:20.998 [0x4007e89b38] DEBUG - NAT: UPnP, attempting port mapping.
+Jan 03, 2023 16:03:20.999 [0x4002a2b260] DEBUG - NetworkInterface: Starting watch thread.
+Jan 03, 2023 16:03:21.000 [0x4002a2b260] DEBUG - Network change.
+Jan 03, 2023 16:03:21.000 [0x400b543b38] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Jan 03, 2023 16:03:21.001 [0x4002a2b260] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 03, 2023 16:03:21.004 [0x4002a2b260] DEBUG - Detected primary interface: 192.168.144.6
+Jan 03, 2023 16:03:21.004 [0x4002a2b260] DEBUG - Network interfaces:
+Jan 03, 2023 16:03:21.006 [0x4002a2b260] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+Jan 03, 2023 16:03:21.006 [0x4002a2b260] DEBUG -  * 239 eth0 (192.168.144.6) (02-42-C0-A8-90-06) (loopback: 0)
+Jan 03, 2023 16:03:21.006 [0x4002a2b260] DEBUG - Creating NetworkServices singleton.
+Jan 03, 2023 16:03:21.007 [0x4002a2b260] DEBUG - NetworkServices: Initializing...
+Jan 03, 2023 16:03:21.008 [0x4002a2b260] DEBUG - NetworkService: Creating new service.
+Jan 03, 2023 16:03:21.008 [0x4002a2b260] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 03, 2023 16:03:21.008 [0x4002a2b260] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 03, 2023 16:03:21.008 [0x400b747b38] DEBUG - Network change for advertiser.
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Creating new service.
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Creating new service.
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Creating new service.
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 03, 2023 16:03:21.009 [0x4002a2b260] DEBUG - NetworkService: Creating new service.
+Jan 03, 2023 16:03:21.010 [0x4002a2b260] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 03, 2023 16:03:21.010 [0x4002a2b260] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 03, 2023 16:03:21.010 [0x400b747b38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Jan 03, 2023 16:03:21.011 [0x4002a2b260] DEBUG - NetworkService: Creating new service.
+Jan 03, 2023 16:03:21.012 [0x4002a2b260] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 03, 2023 16:03:21.012 [0x4002a2b260] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 03, 2023 16:03:21.023 [0x400b747b38] DEBUG - Network change for advertiser.
+Jan 03, 2023 16:03:21.023 [0x400b747b38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Jan 03, 2023 16:03:21.023 [0x400b747b38] DEBUG - Network change for advertiser.
+Jan 03, 2023 16:03:21.023 [0x400b747b38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Jan 03, 2023 16:03:21.024 [0x400b747b38] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jan 03, 2023 16:03:21.024 [0x400b747b38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Jan 03, 2023 16:03:21.025 [0x400b747b38] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jan 03, 2023 16:03:21.025 [0x400b747b38] DEBUG - NetworkService: Browsing on interface 192.168.144.6 on broadcast address 192.168.159.255 (index: 1)
+Jan 03, 2023 16:03:21.025 [0x400b747b38] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Jan 03, 2023 16:03:21.025 [0x400b747b38] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jan 03, 2023 16:03:21.025 [0x400b747b38] DEBUG - NetworkService: Browsing on interface 192.168.144.6 on broadcast address 192.168.159.255 (index: 1)
+Jan 03, 2023 16:03:21.025 [0x400b747b38] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jan 03, 2023 16:03:21.025 [0x400b747b38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Jan 03, 2023 16:03:21.026 [0x400b747b38] DEBUG - NetworkService: Browsing on interface 192.168.144.6 on broadcast address 239.255.255.250 (index: 0)
+Jan 03, 2023 16:03:21.051 [0x400b974b38] DEBUG - [HCl#10] HTTP requesting GET https://plex.tv/api/taas/profile
+Jan 03, 2023 16:03:21.054 [0x400bb91b38] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+Jan 03, 2023 16:03:21.054 [0x400bb91b38] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.30.0.6486-629d58034 32600
+Jan 03, 2023 16:03:21.056 [0x400bb91b38] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 1298
+Jan 03, 2023 16:03:21.059 [0x4002a2b260] DEBUG - [HCl#11] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.124 [0x40080bfb38] DEBUG - [HttpClient/HCl#d] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.125 [0x40095ddb38] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & TV)
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] discovered cloud provider (Music)
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] loading cloud provider details (Music) (alive: 1)
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & TV) (alive: 1)
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] we had 3 cloud providers online, we now have 3
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] cloud provider (Music) is online and available
+Jan 03, 2023 16:03:21.126 [0x40095ddb38] DEBUG - [MediaProviderManager] cloud provider (Movies & TV) is online and available
+Jan 03, 2023 16:03:21.318 [0x40080bfb38] DEBUG - [HttpClient/HCl#e] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1 (reused)
+Jan 03, 2023 16:03:21.329 [0x4009375b38] DEBUG - MyPlex: username is ayoub.bo8, login is ayoub.bouzalmad@gmail.com, home is 0, no pin
+Jan 03, 2023 16:03:21.340 [0x400b138b38] DEBUG - [HCl#12] HTTP requesting GET https://plex.tv/api/v2/geoip
+Jan 03, 2023 16:03:21.343 [0x40080bfb38] DEBUG - [HttpClient/HCl#10] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/taas/profile (reused)
+Jan 03, 2023 16:03:21.358 [0x40080bfb38] DEBUG - [HttpClient/HCl#11] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.369 [0x4002a2b260] DEBUG - [HCl#13] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.377 [0x40080bfb38] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.4s) 200 response from GET http://127.0.0.1:46795/system/agents
+Jan 03, 2023 16:03:21.378 [0x4008945b38] DEBUG - [com.plexapp.system] HTTP reply status 200, with 11288 bytes of content.
+Jan 03, 2023 16:03:21.392 [0x4008945b38] DEBUG - The system knows about 18 agents.
+Jan 03, 2023 16:03:21.394 [0x400c312b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/PlexThemeMusic.bundle.
+Jan 03, 2023 16:03:21.394 [0x400c10eb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/MoviePosterDB.bundle.
+Jan 03, 2023 16:03:21.396 [0x400c516b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/PlexMovieNew.bundle.
+Jan 03, 2023 16:03:21.398 [0x4008945b38] DEBUG - Removing /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/ServerManager.bundle.
+Jan 03, 2023 16:03:21.398 [0x4008945b38] DEBUG - Waiting for 20 plug-ins to finish starting.
+Jan 03, 2023 16:03:21.402 [0x400c10eb38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Jan 03, 2023 16:03:21.402 [0x400c312b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Jan 03, 2023 16:03:21.402 [0x400c516b38] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.movie] yet.
+Jan 03, 2023 16:03:21.403 [0x400c516b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/PlexMusic.bundle.
+Jan 03, 2023 16:03:21.403 [0x400c312b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/TheMovieDB.bundle.
+Jan 03, 2023 16:03:21.404 [0x400c10eb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/LastFM.bundle.
+Jan 03, 2023 16:03:21.408 [0x400c516b38] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.music] yet.
+Jan 03, 2023 16:03:21.408 [0x400c516b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/Fanart-TV.bundle.
+Jan 03, 2023 16:03:21.409 [0x400c10eb38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Jan 03, 2023 16:03:21.410 [0x400c10eb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/Musicbrainz.bundle.
+Jan 03, 2023 16:03:21.413 [0x400c312b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Jan 03, 2023 16:03:21.414 [0x400c312b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/Media-Flags.bundle.
+Jan 03, 2023 16:03:21.417 [0x400c10eb38] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Jan 03, 2023 16:03:21.418 [0x400c516b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Jan 03, 2023 16:03:21.418 [0x400c312b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/OpenSubtitles.bundle.
+Jan 03, 2023 16:03:21.419 [0x400c10eb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/Scanners.bundle.
+Jan 03, 2023 16:03:21.419 [0x400c516b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/LyricFind.bundle.
+Jan 03, 2023 16:03:21.425 [0x400c10eb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/WebClient.bundle.
+Jan 03, 2023 16:03:21.425 [0x400c516b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Jan 03, 2023 16:03:21.426 [0x400c516b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/PlexSeries.bundle.
+Jan 03, 2023 16:03:21.429 [0x400c312b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.opensubtitles] yet.
+Jan 03, 2023 16:03:21.431 [0x400c312b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/TheTVDBv4.bundle.
+Jan 03, 2023 16:03:21.434 [0x400c10eb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/PlexMovie.bundle.
+Jan 03, 2023 16:03:21.434 [0x400c516b38] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.series] yet.
+Jan 03, 2023 16:03:21.435 [0x400c516b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/HTbackdrops.bundle.
+Jan 03, 2023 16:03:21.437 [0x40080bfb38] DEBUG - [HttpClient/HCl#12] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/geoip (reused)
+Jan 03, 2023 16:03:21.439 [0x400b138b38] DEBUG - [HCl#14] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.441 [0x400c10eb38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Jan 03, 2023 16:03:21.441 [0x400c10eb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/PersonalMedia.bundle.
+Jan 03, 2023 16:03:21.441 [0x400c312b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Jan 03, 2023 16:03:21.442 [0x400c312b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/Framework.bundle.
+Jan 03, 2023 16:03:21.444 [0x400c516b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Jan 03, 2023 16:03:21.445 [0x400c516b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-629d58034/LocalMedia.bundle.
+Jan 03, 2023 16:03:21.446 [0x400c10eb38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Jan 03, 2023 16:03:21.449 [0x40080bfb38] DEBUG - [HttpClient/HCl#13] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.449 [0x400c516b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Jan 03, 2023 16:03:21.453 [0x4008945b38] DEBUG - Starting scheduled updates, every 3600 seconds
+Jan 03, 2023 16:03:21.453 [0x4008945b38] INFO - LibraryUpdateManager path watching is disabled
+Jan 03, 2023 16:03:21.454 [0x4008945b38] DEBUG - Done waiting for all plug-ins to start.
+Jan 03, 2023 16:03:21.454 [0x4008945b38] DEBUG - PluginRepository::setStartState: 3, complete
+Jan 03, 2023 16:03:21.466 [0x400e3beb38] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Jan 03, 2023 16:03:21.469 [0x4002a2b260] DEBUG - [DatabaseFixups] Running fix-ups.
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale pt_BR
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale sv
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale ar
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale pt
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale ko
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale sk
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale ru
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale fi
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale da
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale es
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale nl
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale hu
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale zh_CN
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale de
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale hr_HR
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale fr
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale hu_HU
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale ro
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale af
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale sr
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale pl
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale no
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale sl
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale he
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale en
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale it
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale ja_JP
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale cs_CZ
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale nl_BE
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale et_EE
+Jan 03, 2023 16:03:21.478 [0x400e3beb38] DEBUG - Translator: Found locale lt
+Jan 03, 2023 16:03:21.503 [0x40080bfb38] DEBUG - [HttpClient/HCl#f] HTTP/2.0 (0.5s) 200 response from GET https://v4.plex.tv/pms/:/ip
+Jan 03, 2023 16:03:21.513 [0x40082d6b38] DEBUG - PublicAddressManager: Got public IP from v4.plex.tv: 92.184.107.225
+Jan 03, 2023 16:03:21.518 [0x4002a2b260] DEBUG - [DatabaseFixups] Destroyed 0 transient items.
+Jan 03, 2023 16:03:21.545 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Found 0 collections tags in section 1.
+Jan 03, 2023 16:03:21.546 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: We had 0 collections in the library already.
+Jan 03, 2023 16:03:21.546 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Synced tags in section 1 in 3ms.
+Jan 03, 2023 16:03:21.568 [0x40080bfb38] DEBUG - [HttpClient/HCl#14] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.574 [0x400e3beb38] DEBUG - [Req#14] Starting file watcher for com.plexapp.agents.imdb
+Jan 03, 2023 16:03:21.578 [0x400e3beb38] DEBUG - [Req#14] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Jan 03, 2023 16:03:21.578 [0x400e3beb38] DEBUG - [Req#14] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Jan 03, 2023 16:03:21.581 [0x400e3beb38] DEBUG - [Req#14] Spawned plug-in com.plexapp.agents.imdb with PID 1332
+Jan 03, 2023 16:03:21.582 [0x400e3beb38] DEBUG - [Req#14] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Jan 03, 2023 16:03:21.588 [0x400b138b38] DEBUG - [HCl#15] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.592 [0x4002a2b260] WARN - [DatabaseFixups] Held transaction for too long (/data/jenkins/server/3521777883/Library/MetadataCollection.cpp:481): 0.110000 seconds
+Jan 03, 2023 16:03:21.592 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Refreshed attributes for 0 collections in section 1 in 42ms.
+Jan 03, 2023 16:03:21.597 [0x4002a2b260] DEBUG - [DatabaseFixups] Collection: Refreshed visibility in section 1 in 4ms.
+Jan 03, 2023 16:03:21.608 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Refreshed attributes for 0 collections in section 1 in 10ms.
+Jan 03, 2023 16:03:21.610 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Found 0 collections tags in section 2.
+Jan 03, 2023 16:03:21.611 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: We had 0 collections in the library already.
+Jan 03, 2023 16:03:21.611 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Synced tags in section 2 in 1ms.
+Jan 03, 2023 16:03:21.613 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Found 0 collections tags in section 2.
+Jan 03, 2023 16:03:21.614 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: We had 0 collections in the library already.
+Jan 03, 2023 16:03:21.614 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Synced tags in section 2 in 3ms.
+Jan 03, 2023 16:03:21.614 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Found 0 collections tags in section 2.
+Jan 03, 2023 16:03:21.614 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: We had 0 collections in the library already.
+Jan 03, 2023 16:03:21.614 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Synced tags in section 2 in 4ms.
+Jan 03, 2023 16:03:21.617 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Refreshed attributes for 0 collections in section 2 in 2ms.
+Jan 03, 2023 16:03:21.620 [0x4002a2b260] DEBUG - [DatabaseFixups] Collection: Refreshed visibility in section 2 in 2ms.
+Jan 03, 2023 16:03:21.631 [0x4002a2b260] DEBUG - [DatabaseFixups] Collections: Refreshed attributes for 0 collections in section 2 in 10ms.
+Jan 03, 2023 16:03:21.640 [0x4002a2b260] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.4 seconds.
+Jan 03, 2023 16:03:21.642 [0x4002a2b260] DEBUG - [HCl#16] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.660 [0x40080bfb38] DEBUG - [HttpClient/HCl#15] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.669 [0x400b138b38] DEBUG - [HCl#17] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.728 [0x40080bfb38] DEBUG - [HttpClient/HCl#16] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.747 [0x400b974b38] DEBUG - DVR: Starting up.
+Jan 03, 2023 16:03:21.752 [0x40095ddb38] DEBUG - [MediaProviderManager/HCl#18] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.756 [0x40080bfb38] DEBUG - [HttpClient/HCl#17] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.780 [0x400b974b38] DEBUG - Activity: registered new activity 8df7ed16-9cbb-48bc-b14e-6618bcf5dd52 - "Processing subscriptions"
+Jan 03, 2023 16:03:21.783 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Resolving 139.162.215.242 port 443
+Jan 03, 2023 16:03:21.786 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Resolved 139.162.215.242 to 139.162.215.242:443
+Jan 03, 2023 16:03:21.792 [0x400c7d3b38] DEBUG - [HCl#19] HTTP requesting GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.827 [0x400b138b38] DEBUG - CERT: Certificate will not expire soon; we'll check again in a week.
+Jan 03, 2023 16:03:21.829 [0x400ebd3b38] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Jan 03, 2023 16:03:21.829 [0x400ebd3b38] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jan 03, 2023 16:03:21.830 [0x400b138b38] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jan 03, 2023 16:03:21.832 [0x400b138b38] DEBUG - [HCl#1a] HTTP requesting PUT https://plex.tv/devices/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27?Connection[][uri]=http://192.168.144.6:32400&httpsEnabled=1&httpsRequired=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.841 [0x400ebd3b38] DEBUG - MyPlex: Sending Server Info to myPlex (user=ayoub.bouzalmad@gmail.com, ip=, port=0)
+Jan 03, 2023 16:03:21.842 [0x400ebd3b38] DEBUG - [HCl#1b] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.849 [0x40080bfb38] DEBUG - [HttpClient/HCl#18] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.851 [0x400c9d6b38] DEBUG - [MediaProviderManager/HCl#1c] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:21.867 [0x4002a2b260] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Jan 03, 2023 16:03:21.868 [0x4002a2b260] DEBUG - Waiting for server condition to be signaled.
+Jan 03, 2023 16:03:21.895 [0x40080bfb38] DEBUG - [HttpClient/HCl#19] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.958 [0x40080bfb38] DEBUG - [HttpClient/HCl#1c] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & TV)
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Music)
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Music) (alive: 1)
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & TV) (alive: 1)
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] we had 3 cloud providers online, we now have 3
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Jan 03, 2023 16:03:21.960 [0x400c9d6b38] DEBUG - [MediaProviderManager] cloud provider (Music) is online and available
+Jan 03, 2023 16:03:21.961 [0x400c9d6b38] DEBUG - [MediaProviderManager] cloud provider (Movies & TV) is online and available
+Jan 03, 2023 16:03:21.969 [0x40080bfb38] DEBUG - [HttpClient/HCl#1a] HTTP/2.0 (0.1s) 200 response from PUT https://plex.tv/devices/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27?Connection[][uri]=http://192.168.144.6:32400&httpsEnabled=1&httpsRequired=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.981 [0x40080bfb38] DEBUG - [HttpClient/HCl#1b] HTTP/2.0 (0.1s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:21.981 [0x400ebd3b38] DEBUG - MyPlex: Published Mapping State response was 422
+Jan 03, 2023 16:03:21.982 [0x400ebd3b38] DEBUG - MyPlex: Got response for 9449cbc9ca788c4ad1934f7dda63226ffd1e1d27 ~ registered :0
+Jan 03, 2023 16:03:21.982 [0x400ebd3b38] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Jan 03, 2023 16:03:21.982 [0x400ebd3b38] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jan 03, 2023 16:03:22.025 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Connected in 238 ms.
+Jan 03, 2023 16:03:22.028 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Wrote data, reading reply.
+Jan 03, 2023 16:03:22.140 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Read HTTP reply header.
+Jan 03, 2023 16:03:22.142 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: We appear to have regained Internet connectivity.
+Jan 03, 2023 16:03:22.146 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] PublicAddressManager: Obtaining public address and mapping port.
+Jan 03, 2023 16:03:22.146 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Jan 03, 2023 16:03:22.146 [0x4006ad1b38] WARN - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: attempted a reachability check but we're not yet mapped.
+Jan 03, 2023 16:03:22.146 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Successfully connected to 139.162.215.242.
+Jan 03, 2023 16:03:24.469 [0x400aa2bb38] DEBUG - Request: [127.0.0.1:50110 (Loopback)] GET /identity (4 live) #12 Signed-in
+Jan 03, 2023 16:03:24.471 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50110] 200 GET /identity (4 live) 2ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:03:26.011 [0x400a828b38] DEBUG - Request: [127.0.0.1:50120 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (4 live) #17 GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:03:26.014 [0x400a828b38] DEBUG - [Req#17] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Jan 03, 2023 16:03:26.016 [0x400b747b38] DEBUG - NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (Onichan1)
+Jan 03, 2023 16:03:26.016 [0x400b747b38] DEBUG - Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Jan 03, 2023 16:03:26.016 [0x400a828b38] DEBUG - [Req#17/HCl#1f] HTTP requesting GET http://127.0.0.1:46795/system/messaging/clear_events/com.plexapp.agents.imdb
+Jan 03, 2023 16:03:26.016 [0x400b747b38] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Jan 03, 2023 16:03:26.017 [0x400b747b38] DEBUG - [HCl#20] HTTP requesting GET http://127.0.0.1:46795/system/notify/serverUpdated?host=127.0.0.1
+Jan 03, 2023 16:03:26.262 [0x40080bfb38] DEBUG - [HttpClient/HCl#1f] HTTP/1.1 (0.2s) 200 response from GET http://127.0.0.1:46795/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
+Jan 03, 2023 16:03:26.263 [0x400a828b38] DEBUG - [Req#17] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jan 03, 2023 16:03:26.264 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50120] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (4 live) GZIP 253ms 280 bytes
+Jan 03, 2023 16:03:26.283 [0x400aa2bb38] DEBUG - Request: [127.0.0.1:50124 (Loopback)] GET /servers (4 live) #1a GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:03:26.287 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50124] 200 GET /servers (4 live) GZIP 4ms 492 bytes
+Jan 03, 2023 16:03:26.358 [0x40080bfb38] DEBUG - [HttpClient/HCl#20] HTTP/1.1 (0.3s) 200 response from GET http://127.0.0.1:46795/system/notify/serverUpdated?host=127.0.0.1
+Jan 03, 2023 16:03:26.358 [0x400b747b38] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jan 03, 2023 16:03:26.794 [0x400c9d6b38] DEBUG - [PubsubServerManager/process/HCl#21] HTTP requesting GET https://plex.tv/services/pubsub/servers
+Jan 03, 2023 16:03:26.886 [0x40080bfb38] DEBUG - [HttpClient/HCl#21] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/services/pubsub/servers (reused)
+Jan 03, 2023 16:03:26.931 [0x400a828b38] DEBUG - Request: [127.0.0.1:50144 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (4 live) #1c GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:03:26.931 [0x400a828b38] DEBUG - [Req#1c] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Jan 03, 2023 16:03:26.931 [0x400a828b38] DEBUG - [Req#1c/HCl#22] HTTP requesting GET http://127.0.0.1:46795/:/plugins/com.plexapp.system/resourceHashes
+Jan 03, 2023 16:03:27.191 [0x40080bfb38] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.3s) 404 response from GET http://127.0.0.1:46795/:/plugins/com.plexapp.system/resourceHashes (reused)
+Jan 03, 2023 16:03:27.191 [0x400a828b38] DEBUG - [Req#1c] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+Jan 03, 2023 16:03:27.192 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50144] 404 GET /:/plugins/com.plexapp.system/resourceHashes (4 live) GZIP 261ms 261 bytes
+Jan 03, 2023 16:03:27.286 [0x400aa2bb38] DEBUG - Request: [127.0.0.1:50148 (Loopback)] GET / (4 live) #1e GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:03:27.296 [0x400a828b38] DEBUG - Request: [127.0.0.1:50150 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (5 live) #20 GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:03:27.296 [0x400a828b38] DEBUG - [Req#20] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jan 03, 2023 16:03:27.297 [0x400a828b38] DEBUG - [Req#20/HCl#23] HTTP requesting GET http://127.0.0.1:46795/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jan 03, 2023 16:03:27.306 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50148] 200 GET / (5 live) GZIP 19ms 3289 bytes
+Jan 03, 2023 16:03:27.334 [0x40080bfb38] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46795/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jan 03, 2023 16:03:27.334 [0x400a828b38] DEBUG - [Req#20] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+Jan 03, 2023 16:03:27.336 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50150] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) GZIP 40ms 746 bytes
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 178.79.180.168 was 173 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.215.242 was 185 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 192.46.236.7 was 195 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 172.104.24.90 was 347 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 172.105.13.59 was 416 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 45.56.116.228 was 419 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 45.79.23.169 was 441 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 184.105.148.115 was 535 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.75.196 was 799 ms.
+Jan 03, 2023 16:03:27.731 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Time to connect to 172.104.44.222 was 839 ms.
+Jan 03, 2023 16:03:27.740 [0x400c9d6b38] DEBUG - [PubsubServerManager/process] Updating best ping time for 139.162.215.242 to 185 ms.
+Jan 03, 2023 16:03:29.691 [0x400aa2bb38] DEBUG - Request: [127.0.0.1:50154 (Loopback)] GET /identity (4 live) #21 Signed-in
+Jan 03, 2023 16:03:29.691 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50154] 200 GET /identity (4 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:03:30.460 [0x400d706b38] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Jan 03, 2023 16:03:30.463 [0x400d706b38] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+Jan 03, 2023 16:03:30.464 [0x400d706b38] DEBUG - [HCl#24] HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Jan 03, 2023 16:03:31.319 [0x400a828b38] DEBUG - Request: [127.0.0.1:50158 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (4 live) #24 GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:03:31.319 [0x400a828b38] DEBUG - [Req#24] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jan 03, 2023 16:03:31.320 [0x400a828b38] DEBUG - [Req#24/HCl#25] HTTP requesting GET http://127.0.0.1:46795/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jan 03, 2023 16:03:31.366 [0x40080bfb38] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46795/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jan 03, 2023 16:03:31.366 [0x400a828b38] DEBUG - [Req#24] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Jan 03, 2023 16:03:31.367 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50158] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (4 live) GZIP 48ms 415 bytes
+Jan 03, 2023 16:03:31.418 [0x400e3beb38] DEBUG - [Req#14] Reading 148 bytes in the body, code is 200
+Jan 03, 2023 16:03:31.418 [0x400e3beb38] DEBUG - [Req#14] [com.plexapp.agents.imdb] Plug-in running on port 36847.
+Jan 03, 2023 16:03:31.418 [0x400e3beb38] DEBUG - [Req#14] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Jan 03, 2023 16:03:31.420 [0x400e3beb38] DEBUG - [Req#14] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Jan 03, 2023 16:03:31.420 [0x400e3beb38] DEBUG - [Req#14/HCl#26] HTTP requesting GET http://127.0.0.1:36847/:/plugins/com.plexapp.agents.imdb/prefs
+Jan 03, 2023 16:03:31.564 [0x40080bfb38] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:36847/:/plugins/com.plexapp.agents.imdb/prefs
+Jan 03, 2023 16:03:31.565 [0x400e3beb38] DEBUG - [Req#14] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Jan 03, 2023 16:03:31.569 [0x400e3beb38] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as c70378361c8ed2feee9307ea5b5c75bca314aac0
+Jan 03, 2023 16:03:31.572 [0x400e3beb38] DEBUG - IVA: Downloading trailer lists.
+Jan 03, 2023 16:03:31.771 [0x400ce3db38] DEBUG - [HCl#28] HTTP requesting GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:31.785 [0x400d040b38] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jan 03, 2023 16:03:31.791 [0x400d040b38] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jan 03, 2023 16:03:31.800 [0x400d040b38] DEBUG - Activity: registered new activity e8a7fa29-ec8b-4e1a-bab7-e2fcfe728143 - "Processing subscriptions"
+Jan 03, 2023 16:03:31.800 [0x400d040b38] DEBUG - Subscription: Scheduling subscriptions.
+Jan 03, 2023 16:03:31.802 [0x400d040b38] DEBUG - Subscription: Initialized 0 schedulers.
+Jan 03, 2023 16:03:31.802 [0x400d040b38] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Jan 03, 2023 16:03:31.802 [0x400d040b38] DEBUG - Subscription: Scheduled all subscriptions in 1 ms.
+Jan 03, 2023 16:03:31.823 [0x400d040b38] DEBUG - Activity: Ended activity e8a7fa29-ec8b-4e1a-bab7-e2fcfe728143.
+Jan 03, 2023 16:03:31.840 [0x400d040b38] DEBUG - Subscription: There are 0 active grabs at the end.
+Jan 03, 2023 16:03:31.861 [0x400d040b38] DEBUG - Activity: Ended activity 8df7ed16-9cbb-48bc-b14e-6618bcf5dd52.
+Jan 03, 2023 16:03:31.866 [0x40080bfb38] DEBUG - [HttpClient/HCl#28] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:31.869 [0x400d040b38] DEBUG - Subscription: Refreshed all content in 85 ms.
+Jan 03, 2023 16:03:31.871 [0x400ce3db38] DEBUG - Media Server: Tested all servers in 0.0 seconds.
+Jan 03, 2023 16:03:32.084 [0x4009375b38] ERROR - downloadContainer: expected MediaContainer element, found Error
+Jan 03, 2023 16:03:32.084 [0x400e3beb38] ERROR - IVA: Error downloading trailers for source 1.
+Jan 03, 2023 16:03:32.346 [0x4009375b38] ERROR - downloadContainer: expected MediaContainer element, found Error
+Jan 03, 2023 16:03:32.346 [0x400e3beb38] ERROR - IVA: Error downloading trailers for source 2.
+Jan 03, 2023 16:03:32.942 [0x40080bfb38] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (2.5s) 200 response from POST http://127.0.0.1:32600/devices/discover
+Jan 03, 2023 16:03:33.010 [0x4007e89b38] DEBUG - NAT: UPnP, didn't find usable IGD.
+Jan 03, 2023 16:03:33.010 [0x4007e89b38] DEBUG - NAT: PMP, attempting mapping.
+Jan 03, 2023 16:03:33.262 [0x4007e89b38] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Jan 03, 2023 16:03:33.262 [0x4007e89b38] DEBUG - NAT: UPnP, attempting port mapping.
+Jan 03, 2023 16:03:33.529 [0x40082d6b38] DEBUG - NAT: UPnP, getPublicIP didn't find usable IGD.
+Jan 03, 2023 16:03:33.779 [0x40082d6b38] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Jan 03, 2023 16:03:33.781 [0x40082d6b38] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Jan 03, 2023 16:03:33.781 [0x40082d6b38] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jan 03, 2023 16:03:33.785 [0x40082d6b38] DEBUG - MyPlex: Sending Server Info to myPlex (user=ayoub.bouzalmad@gmail.com, ip=92.184.107.225, port=0)
+Jan 03, 2023 16:03:33.785 [0x40082d6b38] DEBUG - [HCl#2a] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:33.901 [0x40080bfb38] DEBUG - [HttpClient/HCl#2a] HTTP/2.0 (0.1s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:33.901 [0x40082d6b38] DEBUG - MyPlex: Published Mapping State response was 422
+Jan 03, 2023 16:03:33.901 [0x40082d6b38] DEBUG - MyPlex: Got response for 9449cbc9ca788c4ad1934f7dda63226ffd1e1d27 ~ registered :0
+Jan 03, 2023 16:03:33.901 [0x40082d6b38] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Jan 03, 2023 16:03:33.901 [0x40082d6b38] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jan 03, 2023 16:03:33.902 [0x40082d6b38] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jan 03, 2023 16:03:33.902 [0x40082d6b38] DEBUG - [HCl#2b] HTTP requesting PUT https://plex.tv/devices/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27?Connection[][uri]=http://192.168.144.6:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:33.975 [0x40080bfb38] DEBUG - [HttpClient/HCl#2b] HTTP/2.0 (0.1s) 200 response from PUT https://plex.tv/devices/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27?Connection[][uri]=http://192.168.144.6:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:34.984 [0x400a828b38] DEBUG - Request: [127.0.0.1:50176 (Loopback)] GET /identity (2 live) #27 Signed-in
+Jan 03, 2023 16:03:34.985 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50176] 200 GET /identity (2 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:03:40.208 [0x400a828b38] DEBUG - Request: [127.0.0.1:50178 (Loopback)] GET /identity (2 live) #2e Signed-in
+Jan 03, 2023 16:03:40.209 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50178] 200 GET /identity (2 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:03:40.351 [0x400ce3db38] DEBUG - [HCl#2c] HTTP requesting GET https://plex.tv/api/v2/shared_sources/owned?machineIdentifier=9449cbc9ca788c4ad1934f7dda63226ffd1e1d27
+Jan 03, 2023 16:03:40.455 [0x40080bfb38] DEBUG - [HttpClient/HCl#2c] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/shared_sources/owned?machineIdentifier=9449cbc9ca788c4ad1934f7dda63226ffd1e1d27 (reused)
+Jan 03, 2023 16:03:40.459 [0x400ce3db38] DEBUG - [HCl#2d] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:40.530 [0x40080bfb38] DEBUG - [HttpClient/HCl#2d] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:40.541 [0x400ce3db38] DEBUG - MyPlex: updating with 3 access tokens
+Jan 03, 2023 16:03:40.542 [0x400ce3db38] DEBUG - [HCl#2e] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:40.543 [0x400d706b38] DEBUG - [MediaProviderManager/HCl#2f] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:40.618 [0x40080bfb38] DEBUG - [HttpClient/HCl#2e] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:40.623 [0x40080bfb38] DEBUG - [HttpClient/HCl#2f] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & TV)
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] discovered cloud provider (Music)
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] loading cloud provider details (Music) (alive: 1)
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & TV) (alive: 1)
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] we had 3 cloud providers online, we now have 3
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] cloud provider (Music) is online and available
+Jan 03, 2023 16:03:40.626 [0x400d706b38] DEBUG - [MediaProviderManager] cloud provider (Movies & TV) is online and available
+Jan 03, 2023 16:03:40.632 [0x4009375b38] DEBUG - [HCl#30] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:41.267 [0x40080bfb38] DEBUG - [HttpClient/HCl#30] HTTP/2.0 (0.6s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:41.303 [0x400fbccb38] DEBUG - MyPlex: no cached data to load for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:45.306 [0x4007e89b38] DEBUG - NAT: UPnP, didn't find usable IGD.
+Jan 03, 2023 16:03:45.306 [0x4007e89b38] DEBUG - PublicAddressManager: Mapping failed.
+Jan 03, 2023 16:03:45.315 [0x4007e89b38] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published'.
+Jan 03, 2023 16:03:45.315 [0x4007e89b38] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published'.
+Jan 03, 2023 16:03:45.315 [0x4007e89b38] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jan 03, 2023 16:03:45.326 [0x4007e89b38] DEBUG - MyPlex: Sending Server Info to myPlex (user=ayoub.bouzalmad@gmail.com, ip=92.184.107.225, port=0)
+Jan 03, 2023 16:03:45.326 [0x4007e89b38] DEBUG - [HCl#31] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:03:45.450 [0x40080bfb38] DEBUG - [HttpClient/HCl#31] HTTP/2.0 (0.1s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:03:45.451 [0x4007e89b38] DEBUG - MyPlex: Published Mapping State response was 422
+Jan 03, 2023 16:03:45.451 [0x4007e89b38] DEBUG - MyPlex: Got response for 9449cbc9ca788c4ad1934f7dda63226ffd1e1d27 ~ registered :0
+Jan 03, 2023 16:03:45.451 [0x4007e89b38] DEBUG - MyPlex: updating mapped state - current state: 'Mapped - Not Published'
+Jan 03, 2023 16:03:45.451 [0x4007e89b38] DEBUG - MyPlex: mapping state set to 'Mapped - Publishing'.
+Jan 03, 2023 16:03:45.451 [0x4007e89b38] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jan 03, 2023 16:03:45.451 [0x4007e89b38] DEBUG - MyPlex: Requesting reachability check.
+Jan 03, 2023 16:03:45.452 [0x4007e89b38] DEBUG - [HCl#32] HTTP requesting PUT https://plex.tv/api/servers/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=4345a57c-e424-40f0-88ff-a749422898a2
+Jan 03, 2023 16:03:45.471 [0x400a828b38] DEBUG - Request: [127.0.0.1:50180 (Loopback)] GET /identity (2 live) #31 Signed-in
+Jan 03, 2023 16:03:45.472 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50180] 200 GET /identity (2 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:03:45.536 [0x40080bfb38] DEBUG - [HttpClient/HCl#32] HTTP/2.0 (0.1s) 200 response from PUT https://plex.tv/api/servers/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=4345a57c-e424-40f0-88ff-a749422898a2 (reused)
+Jan 03, 2023 16:03:45.545 [0x4007e89b38] DEBUG - MyPlex: Last published value didn't change, we're done.
+Jan 03, 2023 16:03:50.740 [0x400a828b38] DEBUG - Request: [127.0.0.1:50182 (Loopback)] GET /identity (2 live) #36 Signed-in
+Jan 03, 2023 16:03:50.741 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50182] 200 GET /identity (2 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:03:55.995 [0x400a828b38] DEBUG - Request: [127.0.0.1:50190 (Loopback)] GET /identity (2 live) #39 Signed-in
+Jan 03, 2023 16:03:55.996 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50190] 200 GET /identity (2 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:01.247 [0x400a828b38] DEBUG - Request: [127.0.0.1:50192 (Loopback)] GET /identity (2 live) #3c Signed-in
+Jan 03, 2023 16:04:01.248 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50192] 200 GET /identity (2 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:06.511 [0x400a828b38] DEBUG - Request: [127.0.0.1:50194 (Loopback)] GET /identity (2 live) #3f Signed-in
+Jan 03, 2023 16:04:06.512 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50194] 200 GET /identity (2 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:11.776 [0x400a828b38] DEBUG - Request: [127.0.0.1:50196 (Loopback)] GET /identity (2 live) #42 Signed-in
+Jan 03, 2023 16:04:11.777 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50196] 200 GET /identity (2 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:15.086 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] EventSource: Got event [data] '<Message address="" port="0" asyncIdentifier="4345a57c-e424-40f0-88ff-a749422898a2" connectivity="0" command="notifyConnectivity"/>'
+Jan 03, 2023 16:04:15.091 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] PubSub: Got notified of reachability for async identifier 4345a57c-e424-40f0-88ff-a749422898a2: 0 for :0 (responded in 29555 ms)
+Jan 03, 2023 16:04:15.091 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: reachability check - current mapping state: 'Mapped - Publishing'.
+Jan 03, 2023 16:04:15.091 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: mapping state set to 'Mapped - Not Published (Not Reachable)'.
+Jan 03, 2023 16:04:17.024 [0x400a828b38] DEBUG - Request: [127.0.0.1:50198 (Loopback)] GET /identity (2 live) #45 Signed-in
+Jan 03, 2023 16:04:17.025 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50198] 200 GET /identity (2 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:17.561 [0x400a828b38] DEBUG - Request: [192.168.144.1:56320 (Subnet)] GET /media/providers (2 live) #48 GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:04:17.564 [0x400fe05b38] DEBUG - Request: [192.168.144.1:56322 (Subnet)] GET /media/providers (3 live) #4b GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:04:17.629 [0x40068ceb38] DEBUG - Completed: [192.168.144.1:56322] 200 GET /media/providers (3 live) GZIP 65ms 3812 bytes (pipelined: 1)
+Jan 03, 2023 16:04:17.629 [0x4006ad1b38] DEBUG - Completed: [192.168.144.1:56320] 200 GET /media/providers (3 live) GZIP 68ms 3684 bytes (pipelined: 1)
+Jan 03, 2023 16:04:17.661 [0x400a828b38] DEBUG - Request: [192.168.144.1:56322 (Subnet)] GET /status/sessions (3 live) #4f GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:04:17.663 [0x400fe05b38] DEBUG - Request: [192.168.144.1:56324 (Subnet)] GET /updater/status (5 live) #4c GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:04:17.665 [0x40101cab38] DEBUG - Request: [192.168.144.1:56326 (Subnet)] GET /:/websockets/notifications (5 live) #51 GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:04:17.670 [0x400a828b38] DEBUG - [Req#4f] [Now] Adding 0 sessions.
+Jan 03, 2023 16:04:17.670 [0x40068ceb38] DEBUG - Completed: [192.168.144.1:56324] 200 GET /updater/status (5 live) GZIP 7ms 561 bytes (pipelined: 1)
+Jan 03, 2023 16:04:17.674 [0x40068ceb38] DEBUG - Completed: [192.168.144.1:56322] 200 GET /status/sessions (5 live) GZIP 12ms 478 bytes (pipelined: 2)
+Jan 03, 2023 16:04:17.676 [0x40101cab38] DEBUG - WebSocket: Performing handshake from origin http://localhost:32400
+Jan 03, 2023 16:04:17.678 [0x400fe05b38] DEBUG - Request: [192.168.144.1:56322 (Subnet)] PUT /updater/check?download=0 (5 live) #54 GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:04:17.681 [0x400fe05b38] DEBUG - [Req#54] AutoUpdate: requesting check endpoint: /updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.30.0.6486-629d58034, download: NO
+Jan 03, 2023 16:04:17.681 [0x40101cab38] DEBUG - Beginning read from WebSocket
+Jan 03, 2023 16:04:17.682 [0x400fe05b38] DEBUG - [Req#54] Downloading document https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.30.0.6486-629d58034
+Jan 03, 2023 16:04:17.682 [0x400fe05b38] DEBUG - [Req#54/HCl#33] HTTP requesting GET https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.30.0.6486-629d58034
+Jan 03, 2023 16:04:17.684 [0x400a828b38] DEBUG - Request: [192.168.144.1:56324 (Subnet)] GET /activities (5 live) #53 GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:04:17.687 [0x4006ad1b38] DEBUG - Completed: [192.168.144.1:56324] 200 GET /activities (5 live) GZIP 3ms 478 bytes (pipelined: 2)
+Jan 03, 2023 16:04:17.756 [0x40080bfb38] DEBUG - [HttpClient/HCl#33] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.30.0.6486-629d58034 (reused)
+Jan 03, 2023 16:04:17.757 [0x400fe05b38] INFO - [Req#54] AutoUpdate: no updates available
+Jan 03, 2023 16:04:17.761 [0x40068ceb38] DEBUG - Completed: [192.168.144.1:56322] 200 PUT /updater/check?download=0 (5 live) GZIP 83ms 323 bytes (pipelined: 3)
+Jan 03, 2023 16:04:18.058 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] EventSource: Got event [data] '<Message host="178.79.141.27" port="443" command="startRelay"/>'
+Jan 03, 2023 16:04:18.068 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/HCl#34] HTTP requesting GET https://downloads.plex.tv/relay/relay_v1.pub
+Jan 03, 2023 16:04:18.386 [0x40080bfb38] DEBUG - [HttpClient/HCl#34] HTTP/2.0 (0.3s) 200 response from GET https://downloads.plex.tv/relay/relay_v1.pub
+Jan 03, 2023 16:04:18.387 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Relay: refreshed host key from https://downloads.plex.tv/relay/relay_v1.pub
+Jan 03, 2023 16:04:18.388 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Relay: starting relay.
+Jan 03, 2023 16:04:18.392 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/JobRunner] Job running: PLEXTOKEN=xxxxxxxxxxxxxxxxxxxx "/usr/lib/plexmediaserver/Plex Relay" -p 443 -N -R 0:127.0.0.1:32401 -o StrictHostKeyChecking=yes -o "UserKnownHostsFile=/config/Library/Application Support/Plex Media Server/Cache/relayHostKey.txt" -o LogLevel=VERBOSE -o PreferredAuthentications=password -o PubkeyAuthentication=no -l ayoub.bo8 -F /dev/null 178.79.141.27
+Jan 03, 2023 16:04:18.396 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/JobRunner] Jobs: Starting child process with pid 1539
+Jan 03, 2023 16:04:19.805 [0x40101cab38] DEBUG - [Req#52] [PlexRelay] Authenticated to 178.79.141.27 ([178.79.141.27]:443).
+Jan 03, 2023 16:04:19.950 [0x400a828b38] INFO - [Req#59] [PlexRelay] Allocated port 30233 for remote forward to 127.0.0.1:32401
+Jan 03, 2023 16:04:20.341 [0x400fe05b38] DEBUG - Request: [127.0.0.1:34850 (WAN)] GET /media/providers (6 live) #2 TLS GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:04:20.352 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:34850] 200 GET /media/providers (6 live) TLS GZIP 11ms 3882 bytes (pipelined: 1)
+Jan 03, 2023 16:04:22.291 [0x400fe05b38] DEBUG - Request: [127.0.0.1:50224 (Loopback)] GET /identity (7 live) #5c Signed-in
+Jan 03, 2023 16:04:22.292 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50224] 200 GET /identity (7 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:27.526 [0x40101cab38] DEBUG - Request: [127.0.0.1:50234 (Loopback)] GET /identity (7 live) #62 Signed-in
+Jan 03, 2023 16:04:27.527 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50234] 200 GET /identity (7 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:32.799 [0x40101cab38] DEBUG - Request: [127.0.0.1:50236 (Loopback)] GET /identity (7 live) #65 Signed-in
+Jan 03, 2023 16:04:32.800 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50236] 200 GET /identity (7 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:38.056 [0x40101cab38] DEBUG - Request: [127.0.0.1:50242 (Loopback)] GET /identity (4 live) #68 Signed-in
+Jan 03, 2023 16:04:38.057 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50242] 200 GET /identity (4 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:43.296 [0x40101cab38] DEBUG - Request: [127.0.0.1:50244 (Loopback)] GET /identity (4 live) #6e Signed-in
+Jan 03, 2023 16:04:43.297 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50244] 200 GET /identity (4 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:48.548 [0x40101cab38] DEBUG - Request: [127.0.0.1:50246 (Loopback)] GET /identity (3 live) #71 Signed-in
+Jan 03, 2023 16:04:48.549 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50246] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:53.820 [0x40101cab38] DEBUG - Request: [127.0.0.1:50250 (Loopback)] GET /identity (3 live) #75 Signed-in
+Jan 03, 2023 16:04:53.821 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50250] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:04:59.076 [0x40101cab38] DEBUG - Request: [127.0.0.1:50252 (Loopback)] GET /identity (3 live) #78 Signed-in
+Jan 03, 2023 16:04:59.077 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50252] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:00.099 [0x40101cab38] DEBUG - Request: [192.168.144.5:60896 (Subnet)] GET /library/sections (3 live) #7b GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:05:00.112 [0x40068ceb38] DEBUG - Completed: [192.168.144.5:60896] 200 GET /library/sections (3 live) GZIP 13ms 753 bytes
+Jan 03, 2023 16:05:00.122 [0x40101cab38] DEBUG - Request: [192.168.144.5:60898 (Subnet)] GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761000 (3 live) #7e Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:05:00.152 [0x40101cab38] DEBUG - [Req#7e] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:05:00.167 [0x40101cab38] DEBUG - [Req#7e] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:05:00.169 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:60898] 200 GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761000 (3 live) GZIP Page 0-499 47ms 634 bytes
+Jan 03, 2023 16:05:00.182 [0x40101cab38] DEBUG - Request: [192.168.144.5:60900 (Subnet)] GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761000 (3 live) #80 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:05:00.186 [0x40101cab38] DEBUG - [Req#80] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:05:00.190 [0x40101cab38] DEBUG - [Req#80] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:05:00.191 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:60900] 200 GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761000 (3 live) GZIP Page 0-499 9ms 652 bytes
+Jan 03, 2023 16:05:04.311 [0x40101cab38] DEBUG - Request: [127.0.0.1:50272 (Loopback)] GET /identity (3 live) #82 Signed-in
+Jan 03, 2023 16:05:04.313 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50272] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:09.416 [0x4010b44b38] DEBUG - BPQ: [Starting] -> [Processing]
+Jan 03, 2023 16:05:09.422 [0x4010b44b38] DEBUG - BPQ: generating queue items from 0 generator(s)
+Jan 03, 2023 16:05:09.423 [0x4010b44b38] DEBUG - BPQ: generated 0 item(s) for queue
+Jan 03, 2023 16:05:09.425 [0x4010b44b38] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Jan 03, 2023 16:05:09.425 [0x4010b44b38] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Jan 03, 2023 16:05:09.427 [0x4010b44b38] DEBUG - BPQ: [Processing] -> [Idle]
+Jan 03, 2023 16:05:09.573 [0x40101cab38] DEBUG - Request: [127.0.0.1:50274 (Loopback)] GET /identity (3 live) #84 Signed-in
+Jan 03, 2023 16:05:09.573 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50274] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:14.851 [0x40101cab38] DEBUG - Request: [127.0.0.1:50284 (Loopback)] GET /identity (3 live) #89 Signed-in
+Jan 03, 2023 16:05:14.852 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50284] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:20.087 [0x40101cab38] DEBUG - Request: [127.0.0.1:50292 (Loopback)] GET /identity (3 live) #8c Signed-in
+Jan 03, 2023 16:05:20.088 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50292] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:20.787 [0x40101cab38] DEBUG - Request: [127.0.0.1:50294 (Loopback)] GET /servers (3 live) #8f GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:05:20.790 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50294] 200 GET /servers (3 live) GZIP 3ms 492 bytes
+Jan 03, 2023 16:05:20.822 [0x40101cab38] DEBUG - Request: [127.0.0.1:50296 (Loopback)] GET / (3 live) #92 GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:05:20.827 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50296] 200 GET / (3 live) GZIP 4ms 3287 bytes
+Jan 03, 2023 16:05:20.854 [0x40101cab38] DEBUG - Request: [127.0.0.1:50298 (Loopback)] GET /library/sections (3 live) #94 GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:05:20.858 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50298] 200 GET /library/sections (3 live) GZIP 4ms 773 bytes
+Jan 03, 2023 16:05:20.877 [0x40101cab38] DEBUG - Request: [127.0.0.1:50300 (Loopback)] GET /channels/all (3 live) #96 GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:05:20.880 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50300] 200 GET /channels/all (3 live) GZIP 3ms 387 bytes
+Jan 03, 2023 16:05:20.912 [0x40101cab38] DEBUG - Request: [127.0.0.1:50302 (Loopback)] GET /library/sections (3 live) #98 GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:05:20.916 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50302] 200 GET /library/sections (3 live) GZIP 4ms 773 bytes
+Jan 03, 2023 16:05:20.934 [0x40101cab38] DEBUG - Request: [127.0.0.1:50304 (Loopback)] GET /channels/all (3 live) #9a GZIP Signed-in Token (ayoub.bo8)
+Jan 03, 2023 16:05:20.935 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50304] 200 GET /channels/all (3 live) GZIP 1ms 387 bytes
+Jan 03, 2023 16:05:25.383 [0x40101cab38] DEBUG - Request: [127.0.0.1:50306 (Loopback)] GET /identity (3 live) #9c Signed-in
+Jan 03, 2023 16:05:25.384 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50306] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:30.632 [0x40101cab38] DEBUG - Request: [127.0.0.1:50308 (Loopback)] GET /identity (3 live) #9e Signed-in
+Jan 03, 2023 16:05:30.633 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50308] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:35.875 [0x40101cab38] DEBUG - Request: [127.0.0.1:50310 (Loopback)] GET /identity (3 live) #a1 Signed-in
+Jan 03, 2023 16:05:35.876 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50310] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:41.129 [0x40101cab38] DEBUG - Request: [127.0.0.1:50312 (Loopback)] GET /identity (3 live) #a4 Signed-in
+Jan 03, 2023 16:05:41.130 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50312] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:46.372 [0x40101cab38] DEBUG - Request: [127.0.0.1:50314 (Loopback)] GET /identity (3 live) #a7 Signed-in
+Jan 03, 2023 16:05:46.373 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50314] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:51.617 [0x40101cab38] DEBUG - Request: [127.0.0.1:50316 (Loopback)] GET /identity (3 live) #aa Signed-in
+Jan 03, 2023 16:05:51.618 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50316] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:05:56.853 [0x40101cab38] DEBUG - Request: [127.0.0.1:50318 (Loopback)] GET /identity (3 live) #ad Signed-in
+Jan 03, 2023 16:05:56.854 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50318] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:02.092 [0x40101cab38] DEBUG - Request: [127.0.0.1:50320 (Loopback)] GET /identity (3 live) #b0 Signed-in
+Jan 03, 2023 16:06:02.093 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50320] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:07.349 [0x40101cab38] DEBUG - Request: [127.0.0.1:50322 (Loopback)] GET /identity (3 live) #b3 Signed-in
+Jan 03, 2023 16:06:07.350 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50322] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:12.592 [0x40101cab38] DEBUG - Request: [127.0.0.1:50324 (Loopback)] GET /identity (3 live) #b6 Signed-in
+Jan 03, 2023 16:06:12.593 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50324] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:17.828 [0x40101cab38] DEBUG - Request: [127.0.0.1:50326 (Loopback)] GET /identity (3 live) #b9 Signed-in
+Jan 03, 2023 16:06:17.829 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50326] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:23.080 [0x40101cab38] DEBUG - Request: [127.0.0.1:50328 (Loopback)] GET /identity (3 live) #bc Signed-in
+Jan 03, 2023 16:06:23.081 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50328] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:28.351 [0x40101cab38] DEBUG - Request: [127.0.0.1:50366 (Loopback)] GET /identity (3 live) #bf Signed-in
+Jan 03, 2023 16:06:28.352 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50366] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:33.579 [0x40101cab38] DEBUG - Request: [127.0.0.1:50380 (Loopback)] GET /identity (3 live) #c2 Signed-in
+Jan 03, 2023 16:06:33.579 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50380] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:38.828 [0x40101cab38] DEBUG - Request: [127.0.0.1:50384 (Loopback)] GET /identity (3 live) #c5 Signed-in
+Jan 03, 2023 16:06:38.829 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50384] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:44.071 [0x40101cab38] DEBUG - Request: [127.0.0.1:50386 (Loopback)] GET /identity (3 live) #c8 Signed-in
+Jan 03, 2023 16:06:44.072 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50386] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:49.321 [0x40101cab38] DEBUG - Request: [127.0.0.1:50388 (Loopback)] GET /identity (3 live) #cb Signed-in
+Jan 03, 2023 16:06:49.322 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50388] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:54.581 [0x40101cab38] DEBUG - Request: [127.0.0.1:50390 (Loopback)] GET /identity (3 live) #ce Signed-in
+Jan 03, 2023 16:06:54.581 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50390] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:06:59.840 [0x40101cab38] DEBUG - Request: [127.0.0.1:50392 (Loopback)] GET /identity (3 live) #d1 Signed-in
+Jan 03, 2023 16:06:59.842 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50392] 200 GET /identity (3 live) 2ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:05.075 [0x40101cab38] DEBUG - Request: [127.0.0.1:50398 (Loopback)] GET /identity (3 live) #d4 Signed-in
+Jan 03, 2023 16:07:05.076 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50398] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:10.311 [0x40101cab38] DEBUG - Request: [127.0.0.1:50412 (Loopback)] GET /identity (3 live) #d7 Signed-in
+Jan 03, 2023 16:07:10.312 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50412] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:15.560 [0x40101cab38] DEBUG - Request: [127.0.0.1:50414 (Loopback)] GET /identity (3 live) #da Signed-in
+Jan 03, 2023 16:07:15.561 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50414] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:20.803 [0x40101cab38] DEBUG - Request: [127.0.0.1:50416 (Loopback)] GET /identity (3 live) #dd Signed-in
+Jan 03, 2023 16:07:20.804 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50416] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:26.062 [0x40101cab38] DEBUG - Request: [127.0.0.1:50422 (Loopback)] GET /identity (3 live) #e0 Signed-in
+Jan 03, 2023 16:07:26.064 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50422] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:31.322 [0x40101cab38] DEBUG - Request: [127.0.0.1:50424 (Loopback)] GET /identity (3 live) #e3 Signed-in
+Jan 03, 2023 16:07:31.323 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50424] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:36.578 [0x40101cab38] DEBUG - Request: [127.0.0.1:50432 (Loopback)] GET /identity (3 live) #e6 Signed-in
+Jan 03, 2023 16:07:36.579 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50432] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:41.810 [0x40101cab38] DEBUG - Request: [127.0.0.1:50434 (Loopback)] GET /identity (3 live) #e9 Signed-in
+Jan 03, 2023 16:07:41.810 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50434] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:47.044 [0x40101cab38] DEBUG - Request: [127.0.0.1:50448 (Loopback)] GET /identity (3 live) #ec Signed-in
+Jan 03, 2023 16:07:47.045 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50448] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:52.339 [0x40101cab38] DEBUG - Request: [127.0.0.1:50458 (Loopback)] GET /identity (3 live) #ef Signed-in
+Jan 03, 2023 16:07:52.340 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50458] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:07:57.568 [0x40101cab38] DEBUG - Request: [127.0.0.1:50462 (Loopback)] GET /identity (3 live) #f2 Signed-in
+Jan 03, 2023 16:07:57.569 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50462] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:02.809 [0x40101cab38] DEBUG - Request: [127.0.0.1:50486 (Loopback)] GET /identity (3 live) #f5 Signed-in
+Jan 03, 2023 16:08:02.809 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50486] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:08.058 [0x40101cab38] DEBUG - Request: [127.0.0.1:50510 (Loopback)] GET /identity (3 live) #f8 Signed-in
+Jan 03, 2023 16:08:08.059 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50510] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:13.297 [0x40101cab38] DEBUG - Request: [127.0.0.1:50522 (Loopback)] GET /identity (3 live) #fb Signed-in
+Jan 03, 2023 16:08:13.298 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50522] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:18.556 [0x40101cab38] DEBUG - Request: [127.0.0.1:50534 (Loopback)] GET /identity (3 live) #fe Signed-in
+Jan 03, 2023 16:08:18.557 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50534] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:23.813 [0x40101cab38] DEBUG - Request: [127.0.0.1:50536 (Loopback)] GET /identity (3 live) #101 Signed-in
+Jan 03, 2023 16:08:23.814 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50536] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:29.061 [0x40101cab38] DEBUG - Request: [127.0.0.1:50538 (Loopback)] GET /identity (3 live) #104 Signed-in
+Jan 03, 2023 16:08:29.062 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50538] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:34.292 [0x40101cab38] DEBUG - Request: [127.0.0.1:50540 (Loopback)] GET /identity (3 live) #107 Signed-in
+Jan 03, 2023 16:08:34.292 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50540] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:39.547 [0x40101cab38] DEBUG - Request: [127.0.0.1:50556 (Loopback)] GET /identity (3 live) #10a Signed-in
+Jan 03, 2023 16:08:39.548 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50556] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:44.804 [0x40101cab38] DEBUG - Request: [127.0.0.1:50560 (Loopback)] GET /identity (3 live) #10d Signed-in
+Jan 03, 2023 16:08:44.805 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50560] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:50.045 [0x40101cab38] DEBUG - Request: [127.0.0.1:50564 (Loopback)] GET /identity (3 live) #110 Signed-in
+Jan 03, 2023 16:08:50.045 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50564] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:08:55.282 [0x40101cab38] DEBUG - Request: [127.0.0.1:50570 (Loopback)] GET /identity (3 live) #113 Signed-in
+Jan 03, 2023 16:08:55.283 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50570] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:00.547 [0x40101cab38] DEBUG - Request: [127.0.0.1:50582 (Loopback)] GET /identity (3 live) #116 Signed-in
+Jan 03, 2023 16:09:00.548 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50582] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:05.811 [0x40101cab38] DEBUG - Request: [127.0.0.1:50584 (Loopback)] GET /identity (3 live) #119 Signed-in
+Jan 03, 2023 16:09:05.812 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50584] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:11.057 [0x40101cab38] DEBUG - Request: [127.0.0.1:50586 (Loopback)] GET /identity (3 live) #11c Signed-in
+Jan 03, 2023 16:09:11.058 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50586] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:16.310 [0x40101cab38] DEBUG - Request: [127.0.0.1:50588 (Loopback)] GET /identity (3 live) #11f Signed-in
+Jan 03, 2023 16:09:16.311 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50588] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:21.549 [0x40101cab38] DEBUG - Request: [127.0.0.1:50600 (Loopback)] GET /identity (3 live) #122 Signed-in
+Jan 03, 2023 16:09:21.551 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50600] 200 GET /identity (3 live) 2ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:26.803 [0x40101cab38] DEBUG - Request: [127.0.0.1:50610 (Loopback)] GET /identity (3 live) #125 Signed-in
+Jan 03, 2023 16:09:26.804 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50610] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:32.046 [0x40101cab38] DEBUG - Request: [127.0.0.1:50612 (Loopback)] GET /identity (3 live) #128 Signed-in
+Jan 03, 2023 16:09:32.047 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50612] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:37.279 [0x40101cab38] DEBUG - Request: [127.0.0.1:50622 (Loopback)] GET /identity (3 live) #12b Signed-in
+Jan 03, 2023 16:09:37.280 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50622] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:42.510 [0x40101cab38] DEBUG - Request: [127.0.0.1:50626 (Loopback)] GET /identity (3 live) #12e Signed-in
+Jan 03, 2023 16:09:42.511 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50626] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:43.895 [0x40101cab38] DEBUG - [Req#131] [PlexRelay] Transferred: sent 11628, received 4088 bytes, in 324.1 seconds
+Jan 03, 2023 16:09:43.900 [0x40101cab38] DEBUG - [Req#134] [PlexRelay] Bytes per second: sent 35.9, received 12.6
+Jan 03, 2023 16:09:43.922 [0x400665cb38] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Relay' exit code for process 1539 is 255 (failure)
+Jan 03, 2023 16:09:47.782 [0x40101cab38] DEBUG - Request: [127.0.0.1:50636 (Loopback)] GET /identity (3 live) #137 Signed-in
+Jan 03, 2023 16:09:47.783 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50636] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:53.043 [0x40101cab38] DEBUG - Request: [127.0.0.1:50638 (Loopback)] GET /identity (3 live) #13a Signed-in
+Jan 03, 2023 16:09:53.044 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50638] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:09:58.275 [0x40101cab38] DEBUG - Request: [127.0.0.1:50640 (Loopback)] GET /identity (3 live) #13d Signed-in
+Jan 03, 2023 16:09:58.276 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50640] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:00.067 [0x40101cab38] DEBUG - Request: [192.168.144.5:33054 (Subnet)] GET /library/sections (3 live) #140 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:10:00.072 [0x40068ceb38] DEBUG - Completed: [192.168.144.5:33054] 200 GET /library/sections (3 live) GZIP 5ms 753 bytes
+Jan 03, 2023 16:10:00.078 [0x40101cab38] DEBUG - Request: [192.168.144.5:33056 (Subnet)] GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761300 (3 live) #143 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:10:00.091 [0x40101cab38] DEBUG - [Req#143] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:10:00.098 [0x40101cab38] DEBUG - [Req#143] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:10:00.101 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33056] 200 GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761300 (3 live) GZIP Page 0-499 23ms 634 bytes
+Jan 03, 2023 16:10:00.109 [0x40101cab38] DEBUG - Request: [192.168.144.5:33058 (Subnet)] GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761300 (3 live) #145 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:10:00.113 [0x40101cab38] DEBUG - [Req#145] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:10:00.116 [0x40101cab38] DEBUG - [Req#145] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:10:00.118 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33058] 200 GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761300 (3 live) GZIP Page 0-499 8ms 652 bytes
+Jan 03, 2023 16:10:03.519 [0x40101cab38] DEBUG - Request: [127.0.0.1:50652 (Loopback)] GET /identity (3 live) #147 Signed-in
+Jan 03, 2023 16:10:03.520 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50652] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:08.761 [0x40101cab38] DEBUG - Request: [127.0.0.1:50654 (Loopback)] GET /identity (3 live) #149 Signed-in
+Jan 03, 2023 16:10:08.762 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50654] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:14.011 [0x40101cab38] DEBUG - Request: [127.0.0.1:50656 (Loopback)] GET /identity (3 live) #14c Signed-in
+Jan 03, 2023 16:10:14.012 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50656] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:19.253 [0x40101cab38] DEBUG - Request: [127.0.0.1:50660 (Loopback)] GET /identity (3 live) #14f Signed-in
+Jan 03, 2023 16:10:19.253 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50660] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:24.502 [0x40101cab38] DEBUG - Request: [127.0.0.1:50664 (Loopback)] GET /identity (3 live) #152 Signed-in
+Jan 03, 2023 16:10:24.503 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50664] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:29.729 [0x40101cab38] DEBUG - Request: [127.0.0.1:50676 (Loopback)] GET /identity (3 live) #155 Signed-in
+Jan 03, 2023 16:10:29.730 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50676] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:34.971 [0x40101cab38] DEBUG - Request: [127.0.0.1:50682 (Loopback)] GET /identity (3 live) #158 Signed-in
+Jan 03, 2023 16:10:34.972 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50682] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:40.216 [0x40101cab38] DEBUG - Request: [127.0.0.1:50686 (Loopback)] GET /identity (3 live) #15b Signed-in
+Jan 03, 2023 16:10:40.216 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50686] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:45.460 [0x40101cab38] DEBUG - Request: [127.0.0.1:50696 (Loopback)] GET /identity (3 live) #15e Signed-in
+Jan 03, 2023 16:10:45.460 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50696] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:50.704 [0x40101cab38] DEBUG - Request: [127.0.0.1:50698 (Loopback)] GET /identity (3 live) #161 Signed-in
+Jan 03, 2023 16:10:50.705 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50698] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:10:55.943 [0x40101cab38] DEBUG - Request: [127.0.0.1:50700 (Loopback)] GET /identity (3 live) #164 Signed-in
+Jan 03, 2023 16:10:55.943 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50700] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:01.194 [0x40101cab38] DEBUG - Request: [127.0.0.1:50702 (Loopback)] GET /identity (3 live) #167 Signed-in
+Jan 03, 2023 16:11:01.195 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50702] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:06.425 [0x40101cab38] DEBUG - Request: [127.0.0.1:50712 (Loopback)] GET /identity (3 live) #16a Signed-in
+Jan 03, 2023 16:11:06.426 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50712] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:11.649 [0x40101cab38] DEBUG - Request: [127.0.0.1:50714 (Loopback)] GET /identity (3 live) #16d Signed-in
+Jan 03, 2023 16:11:11.650 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50714] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:16.874 [0x40101cab38] DEBUG - Request: [127.0.0.1:50716 (Loopback)] GET /identity (3 live) #170 Signed-in
+Jan 03, 2023 16:11:16.875 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50716] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:22.097 [0x40101cab38] DEBUG - Request: [127.0.0.1:50718 (Loopback)] GET /identity (3 live) #173 Signed-in
+Jan 03, 2023 16:11:22.098 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50718] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:27.353 [0x40101cab38] DEBUG - Request: [127.0.0.1:50720 (Loopback)] GET /identity (3 live) #176 Signed-in
+Jan 03, 2023 16:11:27.354 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50720] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:32.573 [0x40101cab38] DEBUG - Request: [127.0.0.1:50726 (Loopback)] GET /identity (3 live) #179 Signed-in
+Jan 03, 2023 16:11:32.574 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50726] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:37.810 [0x40101cab38] DEBUG - Request: [127.0.0.1:50768 (Loopback)] GET /identity (3 live) #17c Signed-in
+Jan 03, 2023 16:11:37.810 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50768] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:43.050 [0x40101cab38] DEBUG - Request: [127.0.0.1:50776 (Loopback)] GET /identity (3 live) #17f Signed-in
+Jan 03, 2023 16:11:43.051 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50776] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:48.297 [0x40101cab38] DEBUG - Request: [127.0.0.1:50778 (Loopback)] GET /identity (3 live) #182 Signed-in
+Jan 03, 2023 16:11:48.297 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50778] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:53.520 [0x40101cab38] DEBUG - Request: [127.0.0.1:50784 (Loopback)] GET /identity (3 live) #185 Signed-in
+Jan 03, 2023 16:11:53.520 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50784] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:11:58.772 [0x40101cab38] DEBUG - Request: [127.0.0.1:50786 (Loopback)] GET /identity (3 live) #188 Signed-in
+Jan 03, 2023 16:11:58.773 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50786] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:04.024 [0x40101cab38] DEBUG - Request: [127.0.0.1:50792 (Loopback)] GET /identity (3 live) #18b Signed-in
+Jan 03, 2023 16:12:04.026 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50792] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:09.256 [0x40101cab38] DEBUG - Request: [127.0.0.1:50798 (Loopback)] GET /identity (3 live) #18e Signed-in
+Jan 03, 2023 16:12:09.257 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50798] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:14.491 [0x40101cab38] DEBUG - Request: [127.0.0.1:50800 (Loopback)] GET /identity (3 live) #191 Signed-in
+Jan 03, 2023 16:12:14.491 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50800] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:19.740 [0x40101cab38] DEBUG - Request: [127.0.0.1:50802 (Loopback)] GET /identity (3 live) #194 Signed-in
+Jan 03, 2023 16:12:19.742 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50802] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:24.994 [0x40101cab38] DEBUG - Request: [127.0.0.1:50804 (Loopback)] GET /identity (3 live) #197 Signed-in
+Jan 03, 2023 16:12:24.994 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50804] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:30.222 [0x40101cab38] DEBUG - Request: [127.0.0.1:50806 (Loopback)] GET /identity (3 live) #19a Signed-in
+Jan 03, 2023 16:12:30.223 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50806] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:35.471 [0x40101cab38] DEBUG - Request: [127.0.0.1:50816 (Loopback)] GET /identity (3 live) #19d Signed-in
+Jan 03, 2023 16:12:35.472 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50816] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:36.605 [0x400d4b9b38] DEBUG - [ViewStateSync] Starting
+Jan 03, 2023 16:12:36.619 [0x400d4b9b38] DEBUG - [ViewStateSync] Got token for user 1 (ayoub.bo8)
+Jan 03, 2023 16:12:36.625 [0x400d4b9b38] DEBUG - [ViewStateSync] Starting for user 1
+Jan 03, 2023 16:12:36.625 [0x400d4b9b38] DEBUG - [ViewStateSync] Sending state
+Jan 03, 2023 16:12:36.633 [0x400d4b9b38] DEBUG - [ViewStateSync] All state sent
+Jan 03, 2023 16:12:36.646 [0x400d4b9b38] DEBUG - [ViewStateSync] Getting state
+Jan 03, 2023 16:12:36.648 [0x400d4b9b38] DEBUG - [ViewStateSync/HCl#35] HTTP requesting GET https://scrobbles.plex.tv/state/30122645?count=100
+Jan 03, 2023 16:12:37.237 [0x40080bfb38] DEBUG - [HttpClient/HCl#35] HTTP/2.0 (0.6s) 200 response from GET https://scrobbles.plex.tv/state/30122645?count=100
+Jan 03, 2023 16:12:37.243 [0x40112bab38] DEBUG - [ViewStateSync] Reading 0 states
+Jan 03, 2023 16:12:37.244 [0x40112bab38] DEBUG - [ViewStateSync] Done getting states
+Jan 03, 2023 16:12:37.261 [0x40112bab38] DEBUG - [ViewStateSync] Finished
+Jan 03, 2023 16:12:40.723 [0x40101cab38] DEBUG - Request: [127.0.0.1:50826 (Loopback)] GET /identity (3 live) #1a0 Signed-in
+Jan 03, 2023 16:12:40.724 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50826] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:45.979 [0x40101cab38] DEBUG - Request: [127.0.0.1:50828 (Loopback)] GET /identity (3 live) #1a3 Signed-in
+Jan 03, 2023 16:12:45.980 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50828] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:51.224 [0x40101cab38] DEBUG - Request: [127.0.0.1:50830 (Loopback)] GET /identity (3 live) #1a6 Signed-in
+Jan 03, 2023 16:12:51.224 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50830] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:12:56.460 [0x40101cab38] DEBUG - Request: [127.0.0.1:50842 (Loopback)] GET /identity (3 live) #1a9 Signed-in
+Jan 03, 2023 16:12:56.460 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50842] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:01.713 [0x40101cab38] DEBUG - Request: [127.0.0.1:50854 (Loopback)] GET /identity (3 live) #1ac Signed-in
+Jan 03, 2023 16:13:01.713 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50854] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:06.940 [0x40101cab38] DEBUG - Request: [127.0.0.1:50856 (Loopback)] GET /identity (3 live) #1af Signed-in
+Jan 03, 2023 16:13:06.941 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50856] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:12.163 [0x40101cab38] DEBUG - Request: [127.0.0.1:50858 (Loopback)] GET /identity (3 live) #1b2 Signed-in
+Jan 03, 2023 16:13:12.164 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50858] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:17.409 [0x40101cab38] DEBUG - Request: [127.0.0.1:50860 (Loopback)] GET /identity (3 live) #1b5 Signed-in
+Jan 03, 2023 16:13:17.410 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50860] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:22.624 [0x40101cab38] DEBUG - Request: [127.0.0.1:50864 (Loopback)] GET /identity (3 live) #1b8 Signed-in
+Jan 03, 2023 16:13:22.625 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50864] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:27.894 [0x40101cab38] DEBUG - Request: [127.0.0.1:50866 (Loopback)] GET /identity (3 live) #1bb Signed-in
+Jan 03, 2023 16:13:27.895 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50866] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:33.122 [0x40101cab38] DEBUG - Request: [127.0.0.1:50868 (Loopback)] GET /identity (3 live) #1be Signed-in
+Jan 03, 2023 16:13:33.122 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50868] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:38.357 [0x40101cab38] DEBUG - Request: [127.0.0.1:50870 (Loopback)] GET /identity (3 live) #1c1 Signed-in
+Jan 03, 2023 16:13:38.358 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50870] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:43.611 [0x40101cab38] DEBUG - Request: [127.0.0.1:50874 (Loopback)] GET /identity (3 live) #1c4 Signed-in
+Jan 03, 2023 16:13:43.612 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50874] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:48.851 [0x40101cab38] DEBUG - Request: [127.0.0.1:50898 (Loopback)] GET /identity (3 live) #1c7 Signed-in
+Jan 03, 2023 16:13:48.852 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50898] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:54.113 [0x40101cab38] DEBUG - Request: [127.0.0.1:50900 (Loopback)] GET /identity (3 live) #1ca Signed-in
+Jan 03, 2023 16:13:54.114 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50900] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:13:59.402 [0x40101cab38] DEBUG - Request: [127.0.0.1:50902 (Loopback)] GET /identity (3 live) #1cd Signed-in
+Jan 03, 2023 16:13:59.403 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50902] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:04.658 [0x40101cab38] DEBUG - Request: [127.0.0.1:50910 (Loopback)] GET /identity (3 live) #1d0 Signed-in
+Jan 03, 2023 16:14:04.659 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50910] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:09.884 [0x40101cab38] DEBUG - Request: [127.0.0.1:50916 (Loopback)] GET /identity (3 live) #1d3 Signed-in
+Jan 03, 2023 16:14:09.884 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50916] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:15.128 [0x40101cab38] DEBUG - Request: [127.0.0.1:50918 (Loopback)] GET /identity (3 live) #1d6 Signed-in
+Jan 03, 2023 16:14:15.128 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50918] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:18.422 [0x400d4b9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Relay: cleaning up inactive relay connection to 178.79.141.27
+Jan 03, 2023 16:14:20.366 [0x40101cab38] DEBUG - Request: [127.0.0.1:50920 (Loopback)] GET /identity (3 live) #1d9 Signed-in
+Jan 03, 2023 16:14:20.367 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50920] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:25.615 [0x40101cab38] DEBUG - Request: [127.0.0.1:50934 (Loopback)] GET /identity (3 live) #1dc Signed-in
+Jan 03, 2023 16:14:25.616 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50934] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:30.865 [0x40101cab38] DEBUG - Request: [127.0.0.1:50936 (Loopback)] GET /identity (3 live) #1df Signed-in
+Jan 03, 2023 16:14:30.866 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50936] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:36.140 [0x40101cab38] DEBUG - Request: [127.0.0.1:50960 (Loopback)] GET /identity (3 live) #1e2 Signed-in
+Jan 03, 2023 16:14:36.141 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50960] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:41.380 [0x40101cab38] DEBUG - Request: [127.0.0.1:50968 (Loopback)] GET /identity (3 live) #1e5 Signed-in
+Jan 03, 2023 16:14:41.380 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50968] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:46.633 [0x40101cab38] DEBUG - Request: [127.0.0.1:50974 (Loopback)] GET /identity (3 live) #1e8 Signed-in
+Jan 03, 2023 16:14:46.634 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50974] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:51.885 [0x40101cab38] DEBUG - Request: [127.0.0.1:50978 (Loopback)] GET /identity (3 live) #1eb Signed-in
+Jan 03, 2023 16:14:51.885 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50978] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:14:57.120 [0x40101cab38] DEBUG - Request: [127.0.0.1:50980 (Loopback)] GET /identity (3 live) #1ee Signed-in
+Jan 03, 2023 16:14:57.121 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50980] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:00.075 [0x40101cab38] DEBUG - Request: [192.168.144.5:33392 (Subnet)] GET /library/sections (3 live) #1f1 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:15:00.083 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33392] 200 GET /library/sections (3 live) GZIP 7ms 753 bytes
+Jan 03, 2023 16:15:00.088 [0x40101cab38] DEBUG - Request: [192.168.144.5:33394 (Subnet)] GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761600 (3 live) #1f4 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:15:00.093 [0x40101cab38] DEBUG - [Req#1f4] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:15:00.099 [0x40101cab38] DEBUG - [Req#1f4] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:15:00.100 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33394] 200 GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761600 (3 live) GZIP Page 0-499 12ms 634 bytes
+Jan 03, 2023 16:15:00.114 [0x40101cab38] DEBUG - Request: [192.168.144.5:33396 (Subnet)] GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761600 (3 live) #1f6 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:15:00.117 [0x40101cab38] DEBUG - [Req#1f6] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:15:00.121 [0x40101cab38] DEBUG - [Req#1f6] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:15:00.122 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33396] 200 GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761600 (3 live) GZIP Page 0-499 8ms 652 bytes
+Jan 03, 2023 16:15:02.368 [0x40101cab38] DEBUG - Request: [127.0.0.1:50988 (Loopback)] GET /identity (3 live) #1f8 Signed-in
+Jan 03, 2023 16:15:02.369 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50988] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:07.614 [0x40101cab38] DEBUG - Request: [127.0.0.1:50990 (Loopback)] GET /identity (3 live) #1fa Signed-in
+Jan 03, 2023 16:15:07.615 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50990] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:12.861 [0x40101cab38] DEBUG - Request: [127.0.0.1:50992 (Loopback)] GET /identity (3 live) #1fd Signed-in
+Jan 03, 2023 16:15:12.862 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:50992] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:18.096 [0x40101cab38] DEBUG - Request: [127.0.0.1:50998 (Loopback)] GET /identity (3 live) #200 Signed-in
+Jan 03, 2023 16:15:18.097 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:50998] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:23.337 [0x40101cab38] DEBUG - Request: [127.0.0.1:51000 (Loopback)] GET /identity (3 live) #203 Signed-in
+Jan 03, 2023 16:15:23.338 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51000] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:28.571 [0x40101cab38] DEBUG - Request: [127.0.0.1:51002 (Loopback)] GET /identity (3 live) #206 Signed-in
+Jan 03, 2023 16:15:28.572 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51002] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:33.819 [0x40101cab38] DEBUG - Request: [127.0.0.1:51014 (Loopback)] GET /identity (3 live) #209 Signed-in
+Jan 03, 2023 16:15:33.820 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51014] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:39.033 [0x40101cab38] DEBUG - Request: [127.0.0.1:51016 (Loopback)] GET /identity (3 live) #20c Signed-in
+Jan 03, 2023 16:15:39.033 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51016] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:44.275 [0x40101cab38] DEBUG - Request: [127.0.0.1:51018 (Loopback)] GET /identity (3 live) #20f Signed-in
+Jan 03, 2023 16:15:44.275 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51018] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:49.518 [0x40101cab38] DEBUG - Request: [127.0.0.1:51020 (Loopback)] GET /identity (3 live) #212 Signed-in
+Jan 03, 2023 16:15:49.519 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51020] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:54.760 [0x40101cab38] DEBUG - Request: [127.0.0.1:51022 (Loopback)] GET /identity (3 live) #215 Signed-in
+Jan 03, 2023 16:15:54.761 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51022] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:15:59.999 [0x40101cab38] DEBUG - Request: [127.0.0.1:51024 (Loopback)] GET /identity (3 live) #218 Signed-in
+Jan 03, 2023 16:15:59.999 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51024] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:05.250 [0x40101cab38] DEBUG - Request: [127.0.0.1:51032 (Loopback)] GET /identity (3 live) #21b Signed-in
+Jan 03, 2023 16:16:05.250 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51032] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:10.513 [0x40101cab38] DEBUG - Request: [127.0.0.1:51058 (Loopback)] GET /identity (3 live) #21e Signed-in
+Jan 03, 2023 16:16:10.515 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51058] 200 GET /identity (3 live) 2ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:15.752 [0x40101cab38] DEBUG - Request: [127.0.0.1:51078 (Loopback)] GET /identity (3 live) #221 Signed-in
+Jan 03, 2023 16:16:15.753 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51078] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:21.005 [0x40101cab38] DEBUG - Request: [127.0.0.1:51106 (Loopback)] GET /identity (3 live) #224 Signed-in
+Jan 03, 2023 16:16:21.006 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51106] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:26.243 [0x40101cab38] DEBUG - Request: [127.0.0.1:51118 (Loopback)] GET /identity (3 live) #227 Signed-in
+Jan 03, 2023 16:16:26.245 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51118] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:31.519 [0x40101cab38] DEBUG - Request: [127.0.0.1:51132 (Loopback)] GET /identity (3 live) #22a Signed-in
+Jan 03, 2023 16:16:31.520 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51132] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:36.759 [0x40101cab38] DEBUG - Request: [127.0.0.1:51136 (Loopback)] GET /identity (3 live) #22d Signed-in
+Jan 03, 2023 16:16:36.762 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51136] 200 GET /identity (3 live) 3ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:41.993 [0x40101cab38] DEBUG - Request: [127.0.0.1:51140 (Loopback)] GET /identity (3 live) #230 Signed-in
+Jan 03, 2023 16:16:41.994 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51140] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:47.229 [0x40101cab38] DEBUG - Request: [127.0.0.1:51142 (Loopback)] GET /identity (3 live) #233 Signed-in
+Jan 03, 2023 16:16:47.229 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51142] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:52.502 [0x40101cab38] DEBUG - Request: [127.0.0.1:51144 (Loopback)] GET /identity (3 live) #236 Signed-in
+Jan 03, 2023 16:16:52.503 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51144] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:16:57.756 [0x40101cab38] DEBUG - Request: [127.0.0.1:51146 (Loopback)] GET /identity (3 live) #239 Signed-in
+Jan 03, 2023 16:16:57.757 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51146] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:02.999 [0x40101cab38] DEBUG - Request: [127.0.0.1:51148 (Loopback)] GET /identity (3 live) #23c Signed-in
+Jan 03, 2023 16:17:02.999 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51148] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:08.251 [0x40101cab38] DEBUG - Request: [127.0.0.1:51158 (Loopback)] GET /identity (3 live) #23f Signed-in
+Jan 03, 2023 16:17:08.252 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51158] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:13.501 [0x40101cab38] DEBUG - Request: [127.0.0.1:51160 (Loopback)] GET /identity (3 live) #242 Signed-in
+Jan 03, 2023 16:17:13.502 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51160] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:18.740 [0x40101cab38] DEBUG - Request: [127.0.0.1:51162 (Loopback)] GET /identity (3 live) #245 Signed-in
+Jan 03, 2023 16:17:18.740 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51162] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:23.978 [0x40101cab38] DEBUG - Request: [127.0.0.1:51164 (Loopback)] GET /identity (3 live) #248 Signed-in
+Jan 03, 2023 16:17:23.978 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51164] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:29.212 [0x40101cab38] DEBUG - Request: [127.0.0.1:51166 (Loopback)] GET /identity (3 live) #24b Signed-in
+Jan 03, 2023 16:17:29.212 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51166] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:34.456 [0x40101cab38] DEBUG - Request: [127.0.0.1:51168 (Loopback)] GET /identity (3 live) #24e Signed-in
+Jan 03, 2023 16:17:34.456 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51168] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:39.699 [0x40101cab38] DEBUG - Request: [127.0.0.1:51170 (Loopback)] GET /identity (3 live) #251 Signed-in
+Jan 03, 2023 16:17:39.699 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51170] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:44.953 [0x40101cab38] DEBUG - Request: [127.0.0.1:51172 (Loopback)] GET /identity (3 live) #254 Signed-in
+Jan 03, 2023 16:17:44.954 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51172] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:50.198 [0x40101cab38] DEBUG - Request: [127.0.0.1:51174 (Loopback)] GET /identity (3 live) #257 Signed-in
+Jan 03, 2023 16:17:50.199 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51174] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:17:55.445 [0x40101cab38] DEBUG - Request: [127.0.0.1:51176 (Loopback)] GET /identity (3 live) #25a Signed-in
+Jan 03, 2023 16:17:55.446 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51176] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:00.694 [0x40101cab38] DEBUG - Request: [127.0.0.1:51178 (Loopback)] GET /identity (3 live) #25d Signed-in
+Jan 03, 2023 16:18:00.695 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51178] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:05.947 [0x40101cab38] DEBUG - Request: [127.0.0.1:51180 (Loopback)] GET /identity (3 live) #260 Signed-in
+Jan 03, 2023 16:18:05.947 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51180] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:11.204 [0x40101cab38] DEBUG - Request: [127.0.0.1:51182 (Loopback)] GET /identity (3 live) #263 Signed-in
+Jan 03, 2023 16:18:11.205 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51182] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:16.454 [0x40101cab38] DEBUG - Request: [127.0.0.1:51184 (Loopback)] GET /identity (3 live) #266 Signed-in
+Jan 03, 2023 16:18:16.455 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51184] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:21.695 [0x40101cab38] DEBUG - Request: [127.0.0.1:51188 (Loopback)] GET /identity (3 live) #269 Signed-in
+Jan 03, 2023 16:18:21.696 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51188] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:26.939 [0x40101cab38] DEBUG - Request: [127.0.0.1:51190 (Loopback)] GET /identity (3 live) #26c Signed-in
+Jan 03, 2023 16:18:26.940 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51190] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:32.175 [0x40101cab38] DEBUG - Request: [127.0.0.1:51194 (Loopback)] GET /identity (3 live) #26f Signed-in
+Jan 03, 2023 16:18:32.176 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51194] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:37.432 [0x40101cab38] DEBUG - Request: [127.0.0.1:51230 (Loopback)] GET /identity (3 live) #272 Signed-in
+Jan 03, 2023 16:18:37.433 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51230] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:42.668 [0x40101cab38] DEBUG - Request: [127.0.0.1:51232 (Loopback)] GET /identity (3 live) #275 Signed-in
+Jan 03, 2023 16:18:42.669 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51232] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:47.908 [0x40101cab38] DEBUG - Request: [127.0.0.1:51234 (Loopback)] GET /identity (3 live) #278 Signed-in
+Jan 03, 2023 16:18:47.908 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51234] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:53.159 [0x40101cab38] DEBUG - Request: [127.0.0.1:51236 (Loopback)] GET /identity (3 live) #27b Signed-in
+Jan 03, 2023 16:18:53.159 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51236] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:18:58.387 [0x40101cab38] DEBUG - Request: [127.0.0.1:51238 (Loopback)] GET /identity (3 live) #27e Signed-in
+Jan 03, 2023 16:18:58.387 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51238] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:03.652 [0x40101cab38] DEBUG - Request: [127.0.0.1:51240 (Loopback)] GET /identity (3 live) #281 Signed-in
+Jan 03, 2023 16:19:03.653 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51240] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:08.898 [0x40101cab38] DEBUG - Request: [127.0.0.1:51242 (Loopback)] GET /identity (3 live) #284 Signed-in
+Jan 03, 2023 16:19:08.899 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51242] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:14.150 [0x40101cab38] DEBUG - Request: [127.0.0.1:51244 (Loopback)] GET /identity (3 live) #287 Signed-in
+Jan 03, 2023 16:19:14.151 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51244] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:19.377 [0x40101cab38] DEBUG - Request: [127.0.0.1:51246 (Loopback)] GET /identity (3 live) #28a Signed-in
+Jan 03, 2023 16:19:19.377 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51246] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:24.630 [0x40101cab38] DEBUG - Request: [127.0.0.1:51248 (Loopback)] GET /identity (3 live) #28d Signed-in
+Jan 03, 2023 16:19:24.631 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51248] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:29.874 [0x40101cab38] DEBUG - Request: [127.0.0.1:51250 (Loopback)] GET /identity (3 live) #290 Signed-in
+Jan 03, 2023 16:19:29.875 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51250] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:35.125 [0x40101cab38] DEBUG - Request: [127.0.0.1:51256 (Loopback)] GET /identity (3 live) #293 Signed-in
+Jan 03, 2023 16:19:35.126 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51256] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:40.365 [0x40101cab38] DEBUG - Request: [127.0.0.1:51258 (Loopback)] GET /identity (3 live) #296 Signed-in
+Jan 03, 2023 16:19:40.366 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51258] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:45.614 [0x40101cab38] DEBUG - Request: [127.0.0.1:51260 (Loopback)] GET /identity (3 live) #299 Signed-in
+Jan 03, 2023 16:19:45.615 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51260] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:50.871 [0x40101cab38] DEBUG - Request: [127.0.0.1:51262 (Loopback)] GET /identity (3 live) #29c Signed-in
+Jan 03, 2023 16:19:50.872 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51262] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:19:56.113 [0x40101cab38] DEBUG - Request: [127.0.0.1:51264 (Loopback)] GET /identity (3 live) #29f Signed-in
+Jan 03, 2023 16:19:56.114 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51264] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:00.071 [0x40101cab38] DEBUG - Request: [192.168.144.5:33676 (Subnet)] GET /library/sections (3 live) #2a2 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:20:00.078 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33676] 200 GET /library/sections (3 live) GZIP 7ms 753 bytes
+Jan 03, 2023 16:20:00.083 [0x40101cab38] DEBUG - Request: [192.168.144.5:33678 (Subnet)] GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761900 (3 live) #2a5 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:20:00.088 [0x40101cab38] DEBUG - [Req#2a5] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:20:00.094 [0x40101cab38] DEBUG - [Req#2a5] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:20:00.095 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33678] 200 GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761900 (3 live) GZIP Page 0-499 12ms 634 bytes
+Jan 03, 2023 16:20:00.108 [0x40101cab38] DEBUG - Request: [192.168.144.5:33680 (Subnet)] GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761900 (3 live) #2a7 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:20:00.111 [0x40101cab38] DEBUG - [Req#2a7] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:20:00.114 [0x40101cab38] DEBUG - [Req#2a7] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:20:00.115 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33680] 200 GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672761900 (3 live) GZIP Page 0-499 7ms 652 bytes
+Jan 03, 2023 16:20:01.364 [0x40101cab38] DEBUG - Request: [127.0.0.1:51272 (Loopback)] GET /identity (3 live) #2a9 Signed-in
+Jan 03, 2023 16:20:01.365 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51272] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:06.597 [0x40101cab38] DEBUG - Request: [127.0.0.1:51284 (Loopback)] GET /identity (3 live) #2ab Signed-in
+Jan 03, 2023 16:20:06.598 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51284] 200 GET /identity (3 live) 2ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:11.872 [0x40101cab38] DEBUG - Request: [127.0.0.1:51286 (Loopback)] GET /identity (3 live) #2ae Signed-in
+Jan 03, 2023 16:20:11.872 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51286] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:17.090 [0x40101cab38] DEBUG - Request: [127.0.0.1:51288 (Loopback)] GET /identity (3 live) #2b1 Signed-in
+Jan 03, 2023 16:20:17.091 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51288] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:22.326 [0x40101cab38] DEBUG - Request: [127.0.0.1:51290 (Loopback)] GET /identity (3 live) #2b4 Signed-in
+Jan 03, 2023 16:20:22.326 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51290] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:27.571 [0x40101cab38] DEBUG - Request: [127.0.0.1:51292 (Loopback)] GET /identity (3 live) #2b7 Signed-in
+Jan 03, 2023 16:20:27.571 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51292] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:32.821 [0x40101cab38] DEBUG - Request: [127.0.0.1:51294 (Loopback)] GET /identity (3 live) #2ba Signed-in
+Jan 03, 2023 16:20:32.821 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51294] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:38.069 [0x40101cab38] DEBUG - Request: [127.0.0.1:51296 (Loopback)] GET /identity (3 live) #2bd Signed-in
+Jan 03, 2023 16:20:38.070 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51296] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:43.318 [0x40101cab38] DEBUG - Request: [127.0.0.1:51298 (Loopback)] GET /identity (3 live) #2c0 Signed-in
+Jan 03, 2023 16:20:43.319 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51298] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:48.572 [0x40101cab38] DEBUG - Request: [127.0.0.1:51300 (Loopback)] GET /identity (3 live) #2c3 Signed-in
+Jan 03, 2023 16:20:48.572 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51300] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:53.830 [0x40101cab38] DEBUG - Request: [127.0.0.1:51302 (Loopback)] GET /identity (3 live) #2c6 Signed-in
+Jan 03, 2023 16:20:53.830 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51302] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:20:59.077 [0x40101cab38] DEBUG - Request: [127.0.0.1:51304 (Loopback)] GET /identity (3 live) #2c9 Signed-in
+Jan 03, 2023 16:20:59.078 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51304] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:04.353 [0x40101cab38] DEBUG - Request: [127.0.0.1:51326 (Loopback)] GET /identity (3 live) #2cc Signed-in
+Jan 03, 2023 16:21:04.354 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51326] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:09.615 [0x40101cab38] DEBUG - Request: [127.0.0.1:51332 (Loopback)] GET /identity (3 live) #2cf Signed-in
+Jan 03, 2023 16:21:09.616 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51332] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:14.841 [0x40101cab38] DEBUG - Request: [127.0.0.1:51336 (Loopback)] GET /identity (3 live) #2d2 Signed-in
+Jan 03, 2023 16:21:14.842 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51336] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:20.094 [0x40101cab38] DEBUG - Request: [127.0.0.1:51340 (Loopback)] GET /identity (3 live) #2d5 Signed-in
+Jan 03, 2023 16:21:20.095 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51340] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:25.430 [0x40101cab38] DEBUG - Request: [127.0.0.1:51342 (Loopback)] GET /identity (3 live) #2d8 Signed-in
+Jan 03, 2023 16:21:25.430 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51342] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:30.691 [0x40101cab38] DEBUG - Request: [127.0.0.1:51344 (Loopback)] GET /identity (3 live) #2db Signed-in
+Jan 03, 2023 16:21:30.692 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51344] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:35.931 [0x40101cab38] DEBUG - Request: [127.0.0.1:51354 (Loopback)] GET /identity (3 live) #2de Signed-in
+Jan 03, 2023 16:21:35.931 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51354] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:41.175 [0x40101cab38] DEBUG - Request: [127.0.0.1:51356 (Loopback)] GET /identity (3 live) #2e1 Signed-in
+Jan 03, 2023 16:21:41.176 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51356] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:46.421 [0x40101cab38] DEBUG - Request: [127.0.0.1:51358 (Loopback)] GET /identity (3 live) #2e4 Signed-in
+Jan 03, 2023 16:21:46.421 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51358] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:51.668 [0x40101cab38] DEBUG - Request: [127.0.0.1:51360 (Loopback)] GET /identity (3 live) #2e7 Signed-in
+Jan 03, 2023 16:21:51.669 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51360] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:21:56.975 [0x40101cab38] DEBUG - Request: [127.0.0.1:51362 (Loopback)] GET /identity (3 live) #2ea Signed-in
+Jan 03, 2023 16:21:56.976 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51362] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:02.241 [0x40101cab38] DEBUG - Request: [127.0.0.1:51364 (Loopback)] GET /identity (3 live) #2ed Signed-in
+Jan 03, 2023 16:22:02.242 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51364] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:07.482 [0x40101cab38] DEBUG - Request: [127.0.0.1:51366 (Loopback)] GET /identity (3 live) #2f0 Signed-in
+Jan 03, 2023 16:22:07.482 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51366] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:12.708 [0x40101cab38] DEBUG - Request: [127.0.0.1:51368 (Loopback)] GET /identity (3 live) #2f3 Signed-in
+Jan 03, 2023 16:22:12.709 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51368] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:17.946 [0x40101cab38] DEBUG - Request: [127.0.0.1:51370 (Loopback)] GET /identity (3 live) #2f6 Signed-in
+Jan 03, 2023 16:22:17.946 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51370] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:23.196 [0x40101cab38] DEBUG - Request: [127.0.0.1:51372 (Loopback)] GET /identity (3 live) #2f9 Signed-in
+Jan 03, 2023 16:22:23.197 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51372] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:28.453 [0x40101cab38] DEBUG - Request: [127.0.0.1:51374 (Loopback)] GET /identity (3 live) #2fc Signed-in
+Jan 03, 2023 16:22:28.454 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51374] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:33.704 [0x40101cab38] DEBUG - Request: [127.0.0.1:51376 (Loopback)] GET /identity (3 live) #2ff Signed-in
+Jan 03, 2023 16:22:33.705 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51376] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:38.951 [0x40101cab38] DEBUG - Request: [127.0.0.1:51378 (Loopback)] GET /identity (3 live) #302 Signed-in
+Jan 03, 2023 16:22:38.951 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51378] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:44.184 [0x40101cab38] DEBUG - Request: [127.0.0.1:51380 (Loopback)] GET /identity (3 live) #305 Signed-in
+Jan 03, 2023 16:22:44.184 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51380] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:49.424 [0x40101cab38] DEBUG - Request: [127.0.0.1:51382 (Loopback)] GET /identity (3 live) #308 Signed-in
+Jan 03, 2023 16:22:49.425 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51382] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:54.670 [0x40101cab38] DEBUG - Request: [127.0.0.1:51384 (Loopback)] GET /identity (3 live) #30b Signed-in
+Jan 03, 2023 16:22:54.671 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51384] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:22:59.915 [0x40101cab38] DEBUG - Request: [127.0.0.1:51386 (Loopback)] GET /identity (3 live) #30e Signed-in
+Jan 03, 2023 16:22:59.916 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51386] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:05.176 [0x40101cab38] DEBUG - Request: [127.0.0.1:51396 (Loopback)] GET /identity (3 live) #311 Signed-in
+Jan 03, 2023 16:23:05.176 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51396] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:10.423 [0x40101cab38] DEBUG - Request: [127.0.0.1:51398 (Loopback)] GET /identity (3 live) #314 Signed-in
+Jan 03, 2023 16:23:10.424 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51398] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:15.694 [0x40101cab38] DEBUG - Request: [127.0.0.1:51404 (Loopback)] GET /identity (3 live) #317 Signed-in
+Jan 03, 2023 16:23:15.695 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51404] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:15.738 [0x40101cab38] DEBUG - Request: [192.168.144.1:57526 (Subnet)] GET /media/providers (4 live) #31a GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:23:15.740 [0x4011933b38] DEBUG - Request: [192.168.144.1:57528 (Subnet)] GET /media/providers (4 live) #31d GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:23:15.756 [0x4006ad1b38] DEBUG - Completed: [192.168.144.1:57526] 200 GET /media/providers (4 live) GZIP 18ms 3684 bytes (pipelined: 1)
+Jan 03, 2023 16:23:15.762 [0x40068ceb38] DEBUG - Completed: [192.168.144.1:57528] 200 GET /media/providers (4 live) GZIP 23ms 3812 bytes (pipelined: 1)
+Jan 03, 2023 16:23:18.149 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Failure: 125 - Operation canceled.
+Jan 03, 2023 16:23:18.151 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: We appear to have lost Internet connectivity, resetting device URL cache.
+Jan 03, 2023 16:23:18.156 [0x4006ad1b38] ERROR - [EventSourceClient/pubsub/139.162.215.242:443] Retrying in 15 seconds.
+Jan 03, 2023 16:23:20.965 [0x4011933b38] DEBUG - Request: [127.0.0.1:51418 (Loopback)] GET /identity (3 live) #31e Signed-in
+Jan 03, 2023 16:23:20.966 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51418] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:22.450 [0x4011933b38] DEBUG - Request: [192.168.144.1:57544 (Subnet)] GET /media/providers (4 live) #328 GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:23:22.450 [0x40101cab38] DEBUG - Request: [192.168.144.1:57542 (Subnet)] GET /media/providers (4 live) #325 GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:23:22.463 [0x40068ceb38] DEBUG - Completed: [192.168.144.1:57544] 200 GET /media/providers (4 live) GZIP 12ms 3812 bytes (pipelined: 1)
+Jan 03, 2023 16:23:22.463 [0x4006ad1b38] DEBUG - Completed: [192.168.144.1:57542] 200 GET /media/providers (4 live) GZIP 13ms 3684 bytes (pipelined: 1)
+Jan 03, 2023 16:23:26.203 [0x4011933b38] DEBUG - Request: [127.0.0.1:51426 (Loopback)] GET /identity (5 live) #329 Signed-in
+Jan 03, 2023 16:23:26.203 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51426] 200 GET /identity (5 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:31.476 [0x4011933b38] DEBUG - Request: [127.0.0.1:51428 (Loopback)] GET /identity (5 live) #32e Signed-in
+Jan 03, 2023 16:23:31.477 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51428] 200 GET /identity (5 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:33.162 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Resolving 139.162.215.242 port 443
+Jan 03, 2023 16:23:33.173 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Resolved 139.162.215.242 to 139.162.215.242:443
+Jan 03, 2023 16:23:33.435 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Connected in 261 ms.
+Jan 03, 2023 16:23:33.438 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Wrote data, reading reply.
+Jan 03, 2023 16:23:33.542 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Read HTTP reply header.
+Jan 03, 2023 16:23:33.543 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: We appear to have regained Internet connectivity.
+Jan 03, 2023 16:23:33.786 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] PublicAddressManager: Obtaining public address and mapping port.
+Jan 03, 2023 16:23:33.787 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] NAT: UPnP, attempting port mapping.
+Jan 03, 2023 16:23:33.787 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] PublicAddressManager: Obtaining public IP.
+Jan 03, 2023 16:23:33.789 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: async reachability check - current mapped state: 'Mapped - Not Published (Not Reachable)'.
+Jan 03, 2023 16:23:33.789 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Requesting reachability check.
+Jan 03, 2023 16:23:33.791 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/HCl#36] HTTP requesting GET https://v4.plex.tv/pms/:/ip
+Jan 03, 2023 16:23:33.791 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/HCl#37] HTTP requesting PUT https://plex.tv/api/servers/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=f125375e-d779-4fe0-8ac5-5812550c9b20
+Jan 03, 2023 16:23:34.216 [0x40080bfb38] DEBUG - [HttpClient/HCl#37] HTTP/2.0 (0.4s) 200 response from PUT https://plex.tv/api/servers/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=f125375e-d779-4fe0-8ac5-5812550c9b20
+Jan 03, 2023 16:23:34.216 [0x40068ceb38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] Successfully connected to 139.162.215.242.
+Jan 03, 2023 16:23:34.263 [0x40080bfb38] DEBUG - [HttpClient/HCl#36] HTTP/2.0 (0.5s) 200 response from GET https://v4.plex.tv/pms/:/ip
+Jan 03, 2023 16:23:34.263 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] PublicAddressManager: Got public IP from v4.plex.tv: 83.142.147.16
+Jan 03, 2023 16:23:34.367 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] EventSource: Got event [data] '<Message address="" port="0" asyncIdentifier="f125375e-d779-4fe0-8ac5-5812550c9b20" connectivity="0" command="notifyConnectivity"/>'
+Jan 03, 2023 16:23:34.369 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] PubSub: Got notified of reachability for async identifier f125375e-d779-4fe0-8ac5-5812550c9b20: 0 for :0 (responded in 152 ms)
+Jan 03, 2023 16:23:34.369 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: reachability check - current mapping state: 'Mapped - Not Published (Not Reachable)'.
+Jan 03, 2023 16:23:34.369 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: mapping state set to 'Mapped - Not Published (Not Reachable)'.
+Jan 03, 2023 16:23:34.385 [0x4011933b38] DEBUG - Request: [192.168.144.1:57544 (Subnet)] GET /myplex/account (4 live) #32c GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:23:34.392 [0x40068ceb38] DEBUG - Completed: [192.168.144.1:57544] 200 GET /myplex/account (4 live) GZIP 6ms 2641 bytes (pipelined: 2)
+Jan 03, 2023 16:23:36.733 [0x4011933b38] DEBUG - Request: [127.0.0.1:51442 (Loopback)] GET /identity (5 live) #331 Signed-in
+Jan 03, 2023 16:23:36.734 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51442] 200 GET /identity (5 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:41.975 [0x4011933b38] DEBUG - Request: [127.0.0.1:51444 (Loopback)] GET /identity (5 live) #337 Signed-in
+Jan 03, 2023 16:23:41.976 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51444] 200 GET /identity (5 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:45.826 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] NAT: UPnP, didn't find usable IGD.
+Jan 03, 2023 16:23:45.826 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] NAT: PMP, attempting mapping.
+Jan 03, 2023 16:23:46.082 [0x400cbf9b38] WARN - [EventSourceClient/pubsub/139.162.215.242:443] NAT: PMP, got an error: Not Supported by gateway.
+Jan 03, 2023 16:23:46.083 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] NAT: UPnP, attempting port mapping.
+Jan 03, 2023 16:23:46.286 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] NAT: UPnP, getPublicIP didn't find usable IGD.
+Jan 03, 2023 16:23:46.540 [0x40115f4b38] WARN - [EventSourceClient/pubsub/139.162.215.242:443] NAT: PMP, got an error: Not Supported by gateway.
+Jan 03, 2023 16:23:46.556 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published (Not Reachable)'.
+Jan 03, 2023 16:23:46.556 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: mapping state set to 'Unknown'.
+Jan 03, 2023 16:23:46.565 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Sending Server Info to myPlex (user=ayoub.bouzalmad@gmail.com, ip=83.142.147.16, port=0)
+Jan 03, 2023 16:23:46.567 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/HCl#38] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:23:46.669 [0x40080bfb38] DEBUG - [HttpClient/HCl#38] HTTP/2.0 (0.1s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:23:46.671 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Published Mapping State response was 422
+Jan 03, 2023 16:23:46.672 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Got response for 9449cbc9ca788c4ad1934f7dda63226ffd1e1d27 ~ registered :0
+Jan 03, 2023 16:23:46.672 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: updating mapped state - current state: 'Mapped - Not Published (Not Reachable)'
+Jan 03, 2023 16:23:46.672 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: mapping state set to 'Mapped - Publishing'.
+Jan 03, 2023 16:23:46.672 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jan 03, 2023 16:23:46.672 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: requesting connectivity refresh too soon after the last request, skipping.
+Jan 03, 2023 16:23:46.682 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Updating device connections (from timer: 0)
+Jan 03, 2023 16:23:46.684 [0x40115f4b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/HCl#39] HTTP requesting PUT https://plex.tv/devices/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27?Connection[][uri]=http://192.168.144.6:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:23:46.736 [0x40080bfb38] DEBUG - [HttpClient/HCl#39] HTTP/2.0 (0.1s) 200 response from PUT https://plex.tv/devices/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27?Connection[][uri]=http://192.168.144.6:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:23:47.219 [0x4011933b38] DEBUG - Request: [127.0.0.1:51450 (Loopback)] GET /identity (4 live) #33a Signed-in
+Jan 03, 2023 16:23:47.219 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51450] 200 GET /identity (4 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:52.464 [0x4011933b38] DEBUG - Request: [127.0.0.1:51452 (Loopback)] GET /identity (4 live) #344 Signed-in
+Jan 03, 2023 16:23:52.464 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51452] 200 GET /identity (4 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:57.719 [0x4011933b38] DEBUG - Request: [127.0.0.1:51454 (Loopback)] GET /identity (3 live) #347 Signed-in
+Jan 03, 2023 16:23:57.719 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51454] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:23:58.105 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] NAT: UPnP, didn't find usable IGD.
+Jan 03, 2023 16:23:58.105 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] PublicAddressManager: Mapping failed.
+Jan 03, 2023 16:23:58.136 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: mapping state set to 'Mapped - Not Published'.
+Jan 03, 2023 16:23:58.136 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published'.
+Jan 03, 2023 16:23:58.136 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: mapping state set to 'Unknown'.
+Jan 03, 2023 16:23:58.157 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Sending Server Info to myPlex (user=ayoub.bouzalmad@gmail.com, ip=83.142.147.16, port=0)
+Jan 03, 2023 16:23:58.158 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/HCl#3a] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 03, 2023 16:23:58.492 [0x40080bfb38] DEBUG - [HttpClient/HCl#3a] HTTP/2.0 (0.3s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 03, 2023 16:23:58.498 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Published Mapping State response was 422
+Jan 03, 2023 16:23:58.498 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Got response for 9449cbc9ca788c4ad1934f7dda63226ffd1e1d27 ~ registered :0
+Jan 03, 2023 16:23:58.498 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: updating mapped state - current state: 'Mapped - Not Published'
+Jan 03, 2023 16:23:58.499 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: mapping state set to 'Mapped - Publishing'.
+Jan 03, 2023 16:23:58.499 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jan 03, 2023 16:23:58.499 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Requesting reachability check.
+Jan 03, 2023 16:23:58.501 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443/HCl#3b] HTTP requesting PUT https://plex.tv/api/servers/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=657d07df-6ded-43e2-bc63-31261233f886
+Jan 03, 2023 16:23:58.632 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] EventSource: Got event [data] '<Message address="" port="0" asyncIdentifier="657d07df-6ded-43e2-bc63-31261233f886" connectivity="0" command="notifyConnectivity"/>'
+Jan 03, 2023 16:23:58.638 [0x40080bfb38] DEBUG - [HttpClient/HCl#3b] HTTP/2.0 (0.1s) 200 response from PUT https://plex.tv/api/servers/9449cbc9ca788c4ad1934f7dda63226ffd1e1d27/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=657d07df-6ded-43e2-bc63-31261233f886 (reused)
+Jan 03, 2023 16:23:58.643 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] PubSub: Got notified of reachability for async identifier 657d07df-6ded-43e2-bc63-31261233f886: 0 for :0 (responded in 3 ms)
+Jan 03, 2023 16:23:58.643 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: reachability check - current mapping state: 'Mapped - Publishing'.
+Jan 03, 2023 16:23:58.643 [0x4006ad1b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: mapping state set to 'Mapped - Not Published (Not Reachable)'.
+Jan 03, 2023 16:23:58.660 [0x4011933b38] DEBUG - Request: [192.168.144.1:57576 (Subnet)] GET /myplex/account (3 live) #34b GZIP Signed-in Token (ayoub.bo8) (Chrome)
+Jan 03, 2023 16:23:58.662 [0x400cbf9b38] DEBUG - [EventSourceClient/pubsub/139.162.215.242:443] MyPlex: Last published value didn't change, we're done.
+Jan 03, 2023 16:23:58.664 [0x4006ad1b38] DEBUG - Completed: [192.168.144.1:57576] 200 GET /myplex/account (3 live) GZIP 4ms 2640 bytes (pipelined: 1)
+Jan 03, 2023 16:24:02.963 [0x4011933b38] DEBUG - Request: [127.0.0.1:51458 (Loopback)] GET /identity (4 live) #358 Signed-in
+Jan 03, 2023 16:24:02.964 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51458] 200 GET /identity (4 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:08.202 [0x4011933b38] DEBUG - Request: [127.0.0.1:51460 (Loopback)] GET /identity (4 live) #35c Signed-in
+Jan 03, 2023 16:24:08.203 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51460] 200 GET /identity (4 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:13.446 [0x4011933b38] DEBUG - Request: [127.0.0.1:51462 (Loopback)] GET /identity (4 live) #35f Signed-in
+Jan 03, 2023 16:24:13.447 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51462] 200 GET /identity (4 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:18.697 [0x4011933b38] DEBUG - Request: [127.0.0.1:51464 (Loopback)] GET /identity (3 live) #362 Signed-in
+Jan 03, 2023 16:24:18.697 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51464] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:23.948 [0x4011933b38] DEBUG - Request: [127.0.0.1:51466 (Loopback)] GET /identity (3 live) #366 Signed-in
+Jan 03, 2023 16:24:23.949 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51466] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:29.193 [0x4011933b38] DEBUG - Request: [127.0.0.1:51468 (Loopback)] GET /identity (3 live) #369 Signed-in
+Jan 03, 2023 16:24:29.193 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51468] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:34.408 [0x4011933b38] DEBUG - Request: [127.0.0.1:51480 (Loopback)] GET /identity (3 live) #36c Signed-in
+Jan 03, 2023 16:24:34.409 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51480] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:39.675 [0x4011933b38] DEBUG - Request: [127.0.0.1:51482 (Loopback)] GET /identity (3 live) #36f Signed-in
+Jan 03, 2023 16:24:39.675 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51482] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:44.920 [0x4011933b38] DEBUG - Request: [127.0.0.1:51484 (Loopback)] GET /identity (3 live) #372 Signed-in
+Jan 03, 2023 16:24:44.921 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51484] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:50.161 [0x4011933b38] DEBUG - Request: [127.0.0.1:51486 (Loopback)] GET /identity (3 live) #375 Signed-in
+Jan 03, 2023 16:24:50.162 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51486] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:24:55.414 [0x4011933b38] DEBUG - Request: [127.0.0.1:51488 (Loopback)] GET /identity (3 live) #378 Signed-in
+Jan 03, 2023 16:24:55.414 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51488] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:00.067 [0x4011933b38] DEBUG - Request: [192.168.144.5:33900 (Subnet)] GET /library/sections (3 live) #37b GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:25:00.074 [0x4006ad1b38] DEBUG - Completed: [192.168.144.5:33900] 200 GET /library/sections (3 live) GZIP 6ms 753 bytes
+Jan 03, 2023 16:25:00.080 [0x4011933b38] DEBUG - Request: [192.168.144.5:33902 (Subnet)] GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672762200 (3 live) #37e Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:25:00.084 [0x4011933b38] DEBUG - [Req#37e] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:25:00.090 [0x4011933b38] DEBUG - [Req#37e] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:25:00.092 [0x40068ceb38] DEBUG - Completed: [192.168.144.5:33902] 200 GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672762200 (3 live) GZIP Page 0-499 12ms 634 bytes
+Jan 03, 2023 16:25:00.104 [0x4011933b38] DEBUG - Request: [192.168.144.5:33904 (Subnet)] GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672762200 (3 live) #380 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:25:00.108 [0x4011933b38] DEBUG - [Req#380] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:25:00.111 [0x4011933b38] DEBUG - [Req#380] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:25:00.112 [0x40068ceb38] DEBUG - Completed: [192.168.144.5:33904] 200 GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672762200 (3 live) GZIP Page 0-499 7ms 652 bytes
+Jan 03, 2023 16:25:00.651 [0x4011933b38] DEBUG - Request: [127.0.0.1:51496 (Loopback)] GET /identity (3 live) #382 Signed-in
+Jan 03, 2023 16:25:00.652 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51496] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:05.901 [0x4011933b38] DEBUG - Request: [127.0.0.1:51498 (Loopback)] GET /identity (3 live) #384 Signed-in
+Jan 03, 2023 16:25:05.902 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51498] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:11.140 [0x4011933b38] DEBUG - Request: [127.0.0.1:51500 (Loopback)] GET /identity (3 live) #387 Signed-in
+Jan 03, 2023 16:25:11.141 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51500] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:16.399 [0x4011933b38] DEBUG - Request: [127.0.0.1:51502 (Loopback)] GET /identity (3 live) #38a Signed-in
+Jan 03, 2023 16:25:16.399 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51502] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:21.640 [0x4011933b38] DEBUG - Request: [127.0.0.1:51504 (Loopback)] GET /identity (3 live) #38d Signed-in
+Jan 03, 2023 16:25:21.641 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51504] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:26.875 [0x4011933b38] DEBUG - Request: [127.0.0.1:51506 (Loopback)] GET /identity (3 live) #390 Signed-in
+Jan 03, 2023 16:25:26.876 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51506] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:32.121 [0x4011933b38] DEBUG - Request: [127.0.0.1:51508 (Loopback)] GET /identity (3 live) #393 Signed-in
+Jan 03, 2023 16:25:32.122 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51508] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:37.352 [0x4011933b38] DEBUG - Request: [127.0.0.1:51510 (Loopback)] GET /identity (3 live) #396 Signed-in
+Jan 03, 2023 16:25:37.353 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51510] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:42.600 [0x4011933b38] DEBUG - Request: [127.0.0.1:51512 (Loopback)] GET /identity (3 live) #399 Signed-in
+Jan 03, 2023 16:25:42.601 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51512] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:47.904 [0x4011933b38] DEBUG - Request: [127.0.0.1:51514 (Loopback)] GET /identity (3 live) #39c Signed-in
+Jan 03, 2023 16:25:47.905 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51514] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:53.159 [0x4011933b38] DEBUG - Request: [127.0.0.1:51516 (Loopback)] GET /identity (3 live) #39f Signed-in
+Jan 03, 2023 16:25:53.160 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51516] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:25:58.393 [0x4011933b38] DEBUG - Request: [127.0.0.1:51518 (Loopback)] GET /identity (3 live) #3a2 Signed-in
+Jan 03, 2023 16:25:58.394 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51518] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:03.632 [0x4011933b38] DEBUG - Request: [127.0.0.1:51520 (Loopback)] GET /identity (3 live) #3a5 Signed-in
+Jan 03, 2023 16:26:03.633 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51520] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:08.885 [0x4011933b38] DEBUG - Request: [127.0.0.1:51530 (Loopback)] GET /identity (3 live) #3a8 Signed-in
+Jan 03, 2023 16:26:08.886 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51530] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:14.122 [0x4011933b38] DEBUG - Request: [127.0.0.1:51532 (Loopback)] GET /identity (3 live) #3ab Signed-in
+Jan 03, 2023 16:26:14.123 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51532] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:19.355 [0x4011933b38] DEBUG - Request: [127.0.0.1:51534 (Loopback)] GET /identity (3 live) #3ae Signed-in
+Jan 03, 2023 16:26:19.356 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51534] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:24.602 [0x4011933b38] DEBUG - Request: [127.0.0.1:51536 (Loopback)] GET /identity (3 live) #3b1 Signed-in
+Jan 03, 2023 16:26:24.603 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51536] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:29.838 [0x4011933b38] DEBUG - Request: [127.0.0.1:51542 (Loopback)] GET /identity (3 live) #3b4 Signed-in
+Jan 03, 2023 16:26:29.838 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51542] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:35.087 [0x4011933b38] DEBUG - Request: [127.0.0.1:51544 (Loopback)] GET /identity (3 live) #3b7 Signed-in
+Jan 03, 2023 16:26:35.088 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51544] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:40.336 [0x4011933b38] DEBUG - Request: [127.0.0.1:51546 (Loopback)] GET /identity (3 live) #3ba Signed-in
+Jan 03, 2023 16:26:40.336 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51546] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:45.583 [0x4011933b38] DEBUG - Request: [127.0.0.1:51548 (Loopback)] GET /identity (3 live) #3bd Signed-in
+Jan 03, 2023 16:26:45.584 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51548] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:50.829 [0x4011933b38] DEBUG - Request: [127.0.0.1:51550 (Loopback)] GET /identity (3 live) #3c0 Signed-in
+Jan 03, 2023 16:26:50.829 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51550] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:26:56.081 [0x4011933b38] DEBUG - Request: [127.0.0.1:51552 (Loopback)] GET /identity (3 live) #3c3 Signed-in
+Jan 03, 2023 16:26:56.081 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51552] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:01.307 [0x4011933b38] DEBUG - Request: [127.0.0.1:51554 (Loopback)] GET /identity (3 live) #3c6 Signed-in
+Jan 03, 2023 16:27:01.308 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51554] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:06.567 [0x4011933b38] DEBUG - Request: [127.0.0.1:51556 (Loopback)] GET /identity (3 live) #3c9 Signed-in
+Jan 03, 2023 16:27:06.567 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51556] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:11.810 [0x4011933b38] DEBUG - Request: [127.0.0.1:51558 (Loopback)] GET /identity (3 live) #3cc Signed-in
+Jan 03, 2023 16:27:11.811 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51558] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:17.071 [0x4011933b38] DEBUG - Request: [127.0.0.1:51560 (Loopback)] GET /identity (3 live) #3cf Signed-in
+Jan 03, 2023 16:27:17.072 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51560] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:22.314 [0x4011933b38] DEBUG - Request: [127.0.0.1:51562 (Loopback)] GET /identity (3 live) #3d2 Signed-in
+Jan 03, 2023 16:27:22.315 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51562] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:27.560 [0x4011933b38] DEBUG - Request: [127.0.0.1:51564 (Loopback)] GET /identity (3 live) #3d5 Signed-in
+Jan 03, 2023 16:27:27.561 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51564] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:32.801 [0x4011933b38] DEBUG - Request: [127.0.0.1:51566 (Loopback)] GET /identity (3 live) #3d8 Signed-in
+Jan 03, 2023 16:27:32.801 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51566] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:38.048 [0x4011933b38] DEBUG - Request: [127.0.0.1:51580 (Loopback)] GET /identity (3 live) #3db Signed-in
+Jan 03, 2023 16:27:38.049 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51580] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:43.301 [0x4011933b38] DEBUG - Request: [127.0.0.1:51582 (Loopback)] GET /identity (3 live) #3de Signed-in
+Jan 03, 2023 16:27:43.302 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51582] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:48.539 [0x4011933b38] DEBUG - Request: [127.0.0.1:51584 (Loopback)] GET /identity (3 live) #3e1 Signed-in
+Jan 03, 2023 16:27:48.539 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51584] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:53.758 [0x4011933b38] DEBUG - Request: [127.0.0.1:51586 (Loopback)] GET /identity (3 live) #3e4 Signed-in
+Jan 03, 2023 16:27:53.759 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51586] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:27:59.007 [0x4011933b38] DEBUG - Request: [127.0.0.1:51588 (Loopback)] GET /identity (3 live) #3e7 Signed-in
+Jan 03, 2023 16:27:59.008 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51588] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:04.245 [0x4011933b38] DEBUG - Request: [127.0.0.1:51590 (Loopback)] GET /identity (3 live) #3ea Signed-in
+Jan 03, 2023 16:28:04.245 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51590] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:09.502 [0x4011933b38] DEBUG - Request: [127.0.0.1:51592 (Loopback)] GET /identity (3 live) #3ed Signed-in
+Jan 03, 2023 16:28:09.503 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51592] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:14.752 [0x4011933b38] DEBUG - Request: [127.0.0.1:51594 (Loopback)] GET /identity (3 live) #3f0 Signed-in
+Jan 03, 2023 16:28:14.752 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51594] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:19.998 [0x4011933b38] DEBUG - Request: [127.0.0.1:51596 (Loopback)] GET /identity (3 live) #3f3 Signed-in
+Jan 03, 2023 16:28:19.999 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51596] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:25.259 [0x4011933b38] DEBUG - Request: [127.0.0.1:51600 (Loopback)] GET /identity (3 live) #3f6 Signed-in
+Jan 03, 2023 16:28:25.260 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51600] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:30.497 [0x4011933b38] DEBUG - Request: [127.0.0.1:51602 (Loopback)] GET /identity (3 live) #3f9 Signed-in
+Jan 03, 2023 16:28:30.497 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51602] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:35.731 [0x4011933b38] DEBUG - Request: [127.0.0.1:51606 (Loopback)] GET /identity (3 live) #3fc Signed-in
+Jan 03, 2023 16:28:35.732 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51606] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:40.962 [0x4011933b38] DEBUG - Request: [127.0.0.1:51608 (Loopback)] GET /identity (3 live) #3ff Signed-in
+Jan 03, 2023 16:28:40.963 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51608] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:46.207 [0x4011933b38] DEBUG - Request: [127.0.0.1:51610 (Loopback)] GET /identity (3 live) #402 Signed-in
+Jan 03, 2023 16:28:46.208 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51610] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:51.449 [0x4011933b38] DEBUG - Request: [127.0.0.1:51612 (Loopback)] GET /identity (3 live) #405 Signed-in
+Jan 03, 2023 16:28:51.450 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51612] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:28:56.709 [0x4011933b38] DEBUG - Request: [127.0.0.1:51634 (Loopback)] GET /identity (3 live) #408 Signed-in
+Jan 03, 2023 16:28:56.710 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51634] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:01.964 [0x4011933b38] DEBUG - Request: [127.0.0.1:51650 (Loopback)] GET /identity (3 live) #40b Signed-in
+Jan 03, 2023 16:29:01.964 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51650] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:07.195 [0x4011933b38] DEBUG - Request: [127.0.0.1:51662 (Loopback)] GET /identity (3 live) #40e Signed-in
+Jan 03, 2023 16:29:07.195 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51662] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:12.442 [0x4011933b38] DEBUG - Request: [127.0.0.1:51664 (Loopback)] GET /identity (3 live) #411 Signed-in
+Jan 03, 2023 16:29:12.443 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51664] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:17.685 [0x4011933b38] DEBUG - Request: [127.0.0.1:51666 (Loopback)] GET /identity (3 live) #414 Signed-in
+Jan 03, 2023 16:29:17.685 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51666] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:22.939 [0x4011933b38] DEBUG - Request: [127.0.0.1:51668 (Loopback)] GET /identity (3 live) #417 Signed-in
+Jan 03, 2023 16:29:22.940 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51668] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:28.204 [0x4011933b38] DEBUG - Request: [127.0.0.1:51670 (Loopback)] GET /identity (3 live) #41a Signed-in
+Jan 03, 2023 16:29:28.205 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51670] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:33.456 [0x4011933b38] DEBUG - Request: [127.0.0.1:51672 (Loopback)] GET /identity (3 live) #41d Signed-in
+Jan 03, 2023 16:29:33.456 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51672] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:38.715 [0x4011933b38] DEBUG - Request: [127.0.0.1:51678 (Loopback)] GET /identity (3 live) #420 Signed-in
+Jan 03, 2023 16:29:38.715 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51678] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:43.963 [0x4011933b38] DEBUG - Request: [127.0.0.1:51680 (Loopback)] GET /identity (3 live) #423 Signed-in
+Jan 03, 2023 16:29:43.964 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51680] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:49.225 [0x4011933b38] DEBUG - Request: [127.0.0.1:51682 (Loopback)] GET /identity (3 live) #426 Signed-in
+Jan 03, 2023 16:29:49.226 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51682] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:54.485 [0x4011933b38] DEBUG - Request: [127.0.0.1:51684 (Loopback)] GET /identity (3 live) #429 Signed-in
+Jan 03, 2023 16:29:54.486 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51684] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:29:59.744 [0x4011933b38] DEBUG - Request: [127.0.0.1:51686 (Loopback)] GET /identity (3 live) #42c Signed-in
+Jan 03, 2023 16:29:59.745 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51686] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:30:00.052 [0x4011933b38] DEBUG - Request: [192.168.144.5:34098 (Subnet)] GET /library/sections (3 live) #42f GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:30:00.062 [0x40068ceb38] DEBUG - Completed: [192.168.144.5:34098] 200 GET /library/sections (3 live) GZIP 10ms 753 bytes
+Jan 03, 2023 16:30:00.069 [0x4011933b38] DEBUG - Request: [192.168.144.5:34100 (Subnet)] GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672762500 (3 live) #432 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:30:00.074 [0x4011933b38] DEBUG - [Req#432] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:30:00.081 [0x4011933b38] DEBUG - [Req#432] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:30:00.083 [0x40068ceb38] DEBUG - Completed: [192.168.144.5:34100] 200 GET /library/sections/1/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672762500 (3 live) GZIP Page 0-499 14ms 634 bytes
+Jan 03, 2023 16:30:00.092 [0x4011933b38] DEBUG - Request: [192.168.144.5:34102 (Subnet)] GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672762500 (3 live) #434 Page 0-499 GZIP Signed-in Token (ayoub.bo8) (Chrome (Overseerr))
+Jan 03, 2023 16:30:00.096 [0x4011933b38] DEBUG - [Req#434] Setting container serialization range to [0, 499] (total=-1)
+Jan 03, 2023 16:30:00.100 [0x4011933b38] DEBUG - [Req#434] Setting container serialization range to [0, 499] (total=0)
+Jan 03, 2023 16:30:00.102 [0x40068ceb38] DEBUG - Completed: [192.168.144.5:34102] 200 GET /library/sections/2/all?sort=addedAt%3Adesc&addedAt%3E%3E=1672762500 (3 live) GZIP Page 0-499 11ms 652 bytes
+Jan 03, 2023 16:30:04.998 [0x4011933b38] DEBUG - Request: [127.0.0.1:51694 (Loopback)] GET /identity (3 live) #436 Signed-in
+Jan 03, 2023 16:30:04.999 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51694] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:30:10.227 [0x4011933b38] DEBUG - Request: [127.0.0.1:51698 (Loopback)] GET /identity (3 live) #438 Signed-in
+Jan 03, 2023 16:30:10.228 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51698] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:30:15.475 [0x4011933b38] DEBUG - Request: [127.0.0.1:51700 (Loopback)] GET /identity (3 live) #43b Signed-in
+Jan 03, 2023 16:30:15.476 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51700] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:30:20.737 [0x4011933b38] DEBUG - Request: [127.0.0.1:51702 (Loopback)] GET /identity (3 live) #43e Signed-in
+Jan 03, 2023 16:30:20.738 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51702] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:30:25.981 [0x4011933b38] DEBUG - Request: [127.0.0.1:51706 (Loopback)] GET /identity (3 live) #441 Signed-in
+Jan 03, 2023 16:30:25.982 [0x4006ad1b38] DEBUG - Completed: [127.0.0.1:51706] 200 GET /identity (3 live) 0ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:30:31.225 [0x4011933b38] DEBUG - Request: [127.0.0.1:51708 (Loopback)] GET /identity (3 live) #444 Signed-in
+Jan 03, 2023 16:30:31.226 [0x40068ceb38] DEBUG - Completed: [127.0.0.1:51708] 200 GET /identity (3 live) 1ms 398 bytes (pipelined: 1)
+Jan 03, 2023 16:30:32.119 [0x400665cb38] DEBUG - Shutting down with signal 15 (Terminated)
+Jan 03, 2023 16:30:32.119 [0x400665cb38] DEBUG - Ordered to stop server.
+Jan 03, 2023 16:30:32.120 [0x4002a2b260] DEBUG - Stopping server...
+Jan 03, 2023 16:30:32.120 [0x4002a2b260] DEBUG - HttpServer: Stopping server.
+Jan 03, 2023 16:30:32.138 [0x4006f23b38] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Jan 03, 2023 16:30:32.138 [0x4006f23b38] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Jan 03, 2023 16:30:32.140 [0x4006f23b38] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Jan 03, 2023 16:30:32.142 [0x4002a2b260] DEBUG - Server stopped.
+Jan 03, 2023 16:30:32.142 [0x4002a2b260] DEBUG - NetworkService: Stopping advertisement.
+Jan 03, 2023 16:30:32.143 [0x400b747b38] ERROR - Network Service: Error in advertiser handle read: 125 (Operation canceled) socket=77
+Jan 03, 2023 16:30:32.145 [0x4002a2b260] DEBUG - Killing plug-ins.
+Jan 03, 2023 16:30:32.247 [0x400b747b38] INFO - Network Service: Abandoning advertise socket, it was closed.
+Jan 03, 2023 16:30:32.580 [0x4002a2b260] DEBUG - [com.plexapp.agents.imdb] Killing.
+Jan 03, 2023 16:30:32.641 [0x400665cb38] WARN - JobManager: Could not find job for handle 1332
+Jan 03, 2023 16:30:32.666 [0x4002a2b260] DEBUG - [com.plexapp.system] Killing.
+Jan 03, 2023 16:30:32.702 [0x400665cb38] WARN - JobManager: Could not find job for handle 1201
+Jan 03, 2023 16:30:32.718 [0x4002a2b260] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+Jan 03, 2023 16:30:32.718 [0x4002a2b260] DEBUG - [JobRunner] Signalling job ID 1298 with 2
+Jan 03, 2023 16:30:32.805 [0x400665cb38] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 1298 is 0 (success)
+Jan 03, 2023 16:30:32.806 [0x400bb91b38] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+Jan 03, 2023 16:30:32.811 [0x4002a2b260] DEBUG - Database: Shutting down.
+Jan 03, 2023 16:30:32.923 [0x4002a2b260] DEBUG - Database: Shutting down.
